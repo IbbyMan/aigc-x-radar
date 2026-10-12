@@ -1,0 +1,2676 @@
+{
+ "generated_at": "2026-10-12 20:14",
+ "data_date": "2026-10-12",
+ "timezone": "Asia/Shanghai",
+ "window_days": 21,
+ "total_posts": 583,
+ "queries": [
+  "\"rocket cat\" has:media -is:retweet",
+  "(西游记 纽约) OR (\"Journey to the West\" \"New York\") OR (Wukong \"New York\")",
+  "(大肥鱼 OR 火箭猫 OR 悟空 AI OR 八戒 AI OR \"师父\") (AI OR 视频) -is:retweet",
+  "(\"AI short film\" OR \"AI generated\" OR \"made with AI\" OR \"AI video\") (viral OR views OR million) has:videos -is:retweet -is:reply",
+  "(AI短片 OR AI动画 OR AI短剧 OR AI漫剧 OR AI视频 爆火 OR AI二创) -is:retweet -is:reply",
+  "(\"AI trailer\" OR \"AI music video\" OR \"AI MV\" OR \"AI animated series\" OR \"AI anime\" OR \"episode 1\") has:videos -is:retweet -is:reply",
+  "(AI cat OR \"cat video\" OR kitten) (AI OR \"AI generated\") has:videos -is:retweet -is:reply",
+  "(AI parody OR \"AI remake\" OR \"but it's AI\" OR \"real life\") (AI) has:videos -is:retweet -is:reply",
+  "(\"LEGO\" \"AI music video\") OR (MAKOTO \"AI anime\") OR (\"in real life\" cartoon AI) has:videos -is:retweet",
+  "(\"hit\" OR \"reached\" OR \"gained\") (\"M views\" OR \"million views\") (AI OR \"AI-generated\") has:videos -is:retweet -is:reply",
+  "(\"AI short film\" OR \"AI short\" OR \"AI film\") (story OR episode OR emotional OR horror OR comedy) has:videos -is:retweet -is:reply",
+  "(\"Jean Phil\" OR \"Edna Mode\" OR \"AI influencer\" OR \"AI character\") (views OR viral OR Instagram) -is:retweet -is:reply",
+  "(MAKOTO OR \"AI anime\" OR \"AIアニメ\" OR \"AI animation\") (episode OR 第1話 OR series) -is:retweet -is:reply",
+  "(\"would call this AI\" OR \"looks like AI\" OR \"thought it was AI\" OR \"is this AI\") has:videos -is:retweet -is:reply"
+ ],
+ "clusters": [
+  {
+   "id": "rocketcat",
+   "title": "Rocket Cat 火箭猫",
+   "summary": "一只头戴钢盔、扛火箭筒的小猫短视频（@_numanuk 首发）。几小时内衍生出无数配文二创、表情贴纸、「Sword Cat」续作与 meme 币跟风。",
+   "breakdown": {
+    "hook": "萌物 × 重武器的反差：最可爱的脸 + 最离谱的火力",
+    "format": "几秒无台词循环短片，零语言门槛，可配任意文案",
+    "style": "写实质感萌宠 + 战场烟雾特效",
+    "why": "极易套梗（「会议结束」「清场」），被二创账号批量配文，再被 meme 币社区二次放大"
+   },
+   "heat": 98.9,
+   "engagement_total": 35665,
+   "post_count": 54,
+   "quote_count": 13,
+   "impressions": 847073,
+   "first": "2026-10-09 01:21",
+   "peak": "2026-10-09 01:21",
+   "origin": {
+    "id": "2108246490762379392",
+    "url": "https://x.com/_numanuk/status/2108246490762379392",
+    "author": "_numanuk",
+    "followers": 8427,
+    "created_at": "2026-10-08T17:21:47.000Z",
+    "time_local": "2026-10-09 01:21",
+    "engagement": 30026,
+    "text": "rocket cat 🪖",
+    "media": [
+     {
+      "src": "https://pbs.twimg.com/media/HUH--ddXsAANIpl.jpg",
+      "type": "video"
+     }
+    ],
+    "metrics": {
+     "bookmark_count": 4338,
+     "impression_count": 646304,
+     "like_count": 21555,
+     "quote_count": 143,
+     "reply_count": 124,
+     "retweet_count": 1790
+    }
+   },
+   "posts": [
+    {
+     "id": "2108246490762379392",
+     "url": "https://x.com/_numanuk/status/2108246490762379392",
+     "author": "_numanuk",
+     "name": "Numan",
+     "followers": 8427,
+     "created_at": "2026-10-08T17:21:47.000Z",
+     "time_local": "2026-10-09 01:21",
+     "text": "rocket cat 🪖",
+     "metrics": {
+      "bookmark_count": 4338,
+      "impression_count": 646304,
+      "like_count": 21555,
+      "quote_count": 143,
+      "reply_count": 124,
+      "retweet_count": 1790
+     },
+     "engagement": 30026,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/media/HUH--ddXsAANIpl.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2109470366183907824",
+     "url": "https://x.com/Popcorn__Girl_/status/2109470366183907824",
+     "author": "Popcorn__Girl_",
+     "name": "🍿",
+     "followers": 1871,
+     "created_at": "2026-10-12T02:25:02.000Z",
+     "time_local": "2026-10-12 10:25",
+     "text": "Rocket cat…bad idea😭🚀🐱\n\nNew sticker arrived !!!",
+     "metrics": {
+      "bookmark_count": 377,
+      "impression_count": 30797,
+      "like_count": 1103,
+      "quote_count": 9,
+      "reply_count": 18,
+      "retweet_count": 85
+     },
+     "engagement": 1695,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2109470342553149440/img/C2uHH_JdsojHU_0B.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2108358860167868813",
+     "url": "https://x.com/prince__verma_/status/2108358860167868813",
+     "author": "prince__verma_",
+     "name": "Prince Verma",
+     "followers": 2244,
+     "created_at": "2026-10-09T00:48:18.000Z",
+     "time_local": "2026-10-09 08:48",
+     "text": "Rocket cat ....!",
+     "metrics": {
+      "bookmark_count": 201,
+      "impression_count": 79431,
+      "like_count": 755,
+      "quote_count": 6,
+      "reply_count": 12,
+      "retweet_count": 47
+     },
+     "engagement": 1080,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2108357871301992448/img/Dv1jsdqGTQ2TGT7u.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2108335813985738867",
+     "url": "https://x.com/_numanuk/status/2108335813985738867",
+     "author": "_numanuk",
+     "name": "Numan",
+     "followers": 8427,
+     "created_at": "2026-10-08T23:16:43.000Z",
+     "time_local": "2026-10-09 07:16",
+     "text": "bazucat is a better name tbh",
+     "metrics": {
+      "bookmark_count": 95,
+      "impression_count": 31128,
+      "like_count": 614,
+      "quote_count": 10,
+      "reply_count": 17,
+      "retweet_count": 38
+     },
+     "engagement": 832,
+     "media": [],
+     "refs": [
+      {
+       "id": "2108246490762379392",
+       "type": "quoted"
+      }
+     ]
+    },
+    {
+     "id": "2108876335783477549",
+     "url": "https://x.com/prince__verma_/status/2108876335783477549",
+     "author": "prince__verma_",
+     "name": "Prince Verma",
+     "followers": 2244,
+     "created_at": "2026-10-10T11:04:34.000Z",
+     "time_local": "2026-10-10 19:04",
+     "text": "Rocket cat didn’t blink.",
+     "metrics": {
+      "bookmark_count": 124,
+      "impression_count": 18156,
+      "like_count": 424,
+      "quote_count": 2,
+      "reply_count": 7,
+      "retweet_count": 37
+     },
+     "engagement": 635,
+     "media": [],
+     "refs": []
+    },
+    {
+     "id": "2108588718873551216",
+     "url": "https://x.com/prince__verma_/status/2108588718873551216",
+     "author": "prince__verma_",
+     "name": "Prince Verma",
+     "followers": 2244,
+     "created_at": "2026-10-09T16:01:40.000Z",
+     "time_local": "2026-10-10 00:01",
+     "text": "Cute face. Zero mercy. Rocket cat just cleared the block.",
+     "metrics": {
+      "bookmark_count": 69,
+      "impression_count": 10272,
+      "like_count": 238,
+      "quote_count": 1,
+      "reply_count": 8,
+      "retweet_count": 33
+     },
+     "engagement": 384,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2108588073349267456/img/_PAluKscIsJTim6J.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    }
+   ],
+   "timeline": [
+    {
+     "stage": "源头",
+     "id": "2108246490762379392",
+     "url": "https://x.com/_numanuk/status/2108246490762379392",
+     "author": "_numanuk",
+     "followers": 8427,
+     "created_at": "2026-10-08T17:21:47.000Z",
+     "time_local": "2026-10-09 01:21",
+     "engagement": 30026,
+     "text": "rocket cat 🪖"
+    },
+    {
+     "stage": "引用二创 ← @_numanuk",
+     "id": "2108316295053869539",
+     "url": "https://x.com/CatWifRocket/status/2108316295053869539",
+     "author": "CatWifRocket",
+     "followers": 192,
+     "created_at": "2026-10-08T21:59:10.000Z",
+     "time_local": "2026-10-09 05:59",
+     "engagement": 113,
+     "text": "RocketCat 🚀 paired with his sister SwordCat ⚔️\n\nThe Latest Cat from @_numanuk is going MEGA VIRAL with over 300K+ Views "
+    },
+    {
+     "stage": "引用二创 ← @_numanuk",
+     "id": "2108318848588136741",
+     "url": "https://x.com/hashdydevvv/status/2108318848588136741",
+     "author": "hashdydevvv",
+     "followers": 28,
+     "created_at": "2026-10-08T22:09:18.000Z",
+     "time_local": "2026-10-09 06:09",
+     "engagement": 206,
+     "text": "This is such a genny narrative. SO VIRAL on Instagram and X, literally 40k likes in 4 hours on the IG post. Need to run "
+    },
+    {
+     "stage": "二创/仿作",
+     "id": "2108358860167868813",
+     "url": "https://x.com/prince__verma_/status/2108358860167868813",
+     "author": "prince__verma_",
+     "followers": 2244,
+     "created_at": "2026-10-09T00:48:18.000Z",
+     "time_local": "2026-10-09 08:48",
+     "engagement": 1080,
+     "text": "Rocket cat ....!"
+    },
+    {
+     "stage": "二创/仿作",
+     "id": "2109470366183907824",
+     "url": "https://x.com/Popcorn__Girl_/status/2109470366183907824",
+     "author": "Popcorn__Girl_",
+     "followers": 1871,
+     "created_at": "2026-10-12T02:25:02.000Z",
+     "time_local": "2026-10-12 10:25",
+     "engagement": 1695,
+     "text": "Rocket cat…bad idea😭🚀🐱\n\nNew sticker arrived !!!"
+    }
+   ],
+   "remixes": [
+    {
+     "id": "2109470366183907824",
+     "url": "https://x.com/Popcorn__Girl_/status/2109470366183907824",
+     "author": "Popcorn__Girl_",
+     "name": "🍿",
+     "followers": 1871,
+     "created_at": "2026-10-12T02:25:02.000Z",
+     "time_local": "2026-10-12 10:25",
+     "text": "Rocket cat…bad idea😭🚀🐱\n\nNew sticker arrived !!!",
+     "metrics": {
+      "bookmark_count": 377,
+      "impression_count": 30797,
+      "like_count": 1103,
+      "quote_count": 9,
+      "reply_count": 18,
+      "retweet_count": 85
+     },
+     "engagement": 1695,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2109470342553149440/img/C2uHH_JdsojHU_0B.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2108358860167868813",
+     "url": "https://x.com/prince__verma_/status/2108358860167868813",
+     "author": "prince__verma_",
+     "name": "Prince Verma",
+     "followers": 2244,
+     "created_at": "2026-10-09T00:48:18.000Z",
+     "time_local": "2026-10-09 08:48",
+     "text": "Rocket cat ....!",
+     "metrics": {
+      "bookmark_count": 201,
+      "impression_count": 79431,
+      "like_count": 755,
+      "quote_count": 6,
+      "reply_count": 12,
+      "retweet_count": 47
+     },
+     "engagement": 1080,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2108357871301992448/img/Dv1jsdqGTQ2TGT7u.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2108876335783477549",
+     "url": "https://x.com/prince__verma_/status/2108876335783477549",
+     "author": "prince__verma_",
+     "name": "Prince Verma",
+     "followers": 2244,
+     "created_at": "2026-10-10T11:04:34.000Z",
+     "time_local": "2026-10-10 19:04",
+     "text": "Rocket cat didn’t blink.",
+     "metrics": {
+      "bookmark_count": 124,
+      "impression_count": 18156,
+      "like_count": 424,
+      "quote_count": 2,
+      "reply_count": 7,
+      "retweet_count": 37
+     },
+     "engagement": 635,
+     "media": [],
+     "refs": []
+    },
+    {
+     "id": "2108588718873551216",
+     "url": "https://x.com/prince__verma_/status/2108588718873551216",
+     "author": "prince__verma_",
+     "name": "Prince Verma",
+     "followers": 2244,
+     "created_at": "2026-10-09T16:01:40.000Z",
+     "time_local": "2026-10-10 00:01",
+     "text": "Cute face. Zero mercy. Rocket cat just cleared the block.",
+     "metrics": {
+      "bookmark_count": 69,
+      "impression_count": 10272,
+      "like_count": 238,
+      "quote_count": 1,
+      "reply_count": 8,
+      "retweet_count": 33
+     },
+     "engagement": 384,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2108588073349267456/img/_PAluKscIsJTim6J.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2108318848588136741",
+     "url": "https://x.com/hashdydevvv/status/2108318848588136741",
+     "author": "hashdydevvv",
+     "name": "hash",
+     "followers": 28,
+     "created_at": "2026-10-08T22:09:18.000Z",
+     "time_local": "2026-10-09 06:09",
+     "text": "This is such a genny narrative. SO VIRAL on Instagram and X, literally 40k likes in 4 hours on the IG post. Need to run a cute animal runner.\n\nhttps://t.co/8sGSRCTOFi",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 7695,
+      "like_count": 89,
+      "quote_count": 10,
+      "reply_count": 46,
+      "retweet_count": 20
+     },
+     "engagement": 206,
+     "media": [],
+     "refs": [
+      {
+       "id": "2108246490762379392",
+       "type": "quoted"
+      }
+     ]
+    },
+    {
+     "id": "2108589684033208516",
+     "url": "https://x.com/prince__verma_/status/2108589684033208516",
+     "author": "prince__verma_",
+     "name": "Prince Verma",
+     "followers": 2244,
+     "created_at": "2026-10-09T16:05:31.000Z",
+     "time_local": "2026-10-10 00:05",
+     "text": "He said nothing. The smoke said everything. Rocket cat.",
+     "metrics": {
+      "bookmark_count": 29,
+      "impression_count": 5390,
+      "like_count": 134,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 9
+     },
+     "engagement": 182,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2108589639217074176/img/FhxZVymaHJjmwkqK.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    }
+   ]
+  },
+  {
+   "id": "shorts",
+   "title": "原创 AI 叙事短片：《Onyx》《SALT》等",
+   "summary": "个人创作者发布的完整叙事短片：「爱死机」风克苏鲁科幻《Onyx》、情感短片《SALT》《The Space Beside Me》、28 分钟长片等。",
+   "breakdown": {
+    "hook": "「一个人 + 十天 = 一部短片」的创作者叙事",
+    "format": "1–30 分钟完整剧情片",
+    "style": "电影感、科幻/情感题材",
+    "why": "完成度与工作量本身就是卖点；创作者圈互相引用"
+   },
+   "heat": 95.7,
+   "engagement_total": 8931,
+   "post_count": 68,
+   "quote_count": 3,
+   "impressions": 703292,
+   "first": "2026-10-01 15:07",
+   "peak": "2026-10-03 16:04",
+   "origin": {
+    "id": "2105555250069610795",
+    "url": "https://x.com/virtucci_DP/status/2105555250069610795",
+    "author": "virtucci_DP",
+    "followers": 29,
+    "created_at": "2026-10-01T07:07:45.000Z",
+    "time_local": "2026-10-01 15:07",
+    "engagement": 0,
+    "text": "Controlling #Seedance with #UnrealEngine | Unreal Engine 5.8 x Seedance 2.5 #MetaHuman Short Film",
+    "media": [],
+    "metrics": {
+     "bookmark_count": 0,
+     "impression_count": 55,
+     "like_count": 0,
+     "quote_count": 0,
+     "reply_count": 0,
+     "retweet_count": 0
+    }
+   },
+   "posts": [
+    {
+     "id": "2106294180456943927",
+     "url": "https://x.com/Magncsans/status/2106294180456943927",
+     "author": "Magncsans",
+     "name": "Foyege",
+     "followers": 7498,
+     "created_at": "2026-10-03T08:04:00.000Z",
+     "time_local": "2026-10-03 16:04",
+     "text": "十天时间，个人手搓300多个分镜，消耗十万积分！\n做出的“爱死机”克苏鲁科幻片《Onyx》\n本视频80%由白模辅助生成\n\n近未来AI突然自己进化出了血肉之驱\n并且除了可以蒸馏人类的知识，甚至还开始“蒸馏”人类的肉身\n它继承的越来越多，我们存在的理由却越来越少\n\n当机械的心脏长出血肉",
+     "metrics": {
+      "bookmark_count": 413,
+      "impression_count": 128412,
+      "like_count": 1285,
+      "quote_count": 63,
+      "reply_count": 190,
+      "retweet_count": 103
+     },
+     "engagement": 2283,
+     "media": [],
+     "refs": []
+    },
+    {
+     "id": "2107486727791120624",
+     "url": "https://x.com/mxvdxn/status/2107486727791120624",
+     "author": "mxvdxn",
+     "name": "MXVDXN // DAN",
+     "followers": 26298,
+     "created_at": "2026-10-06T15:02:45.000Z",
+     "time_local": "2026-10-06 23:02",
+     "text": "At 83 years old, a Jakarta photocopy shop owner is ready for his musical debut. He recruits a passing student to photograph the album cover, striking awkward poses with the confidence of a veteran music producer.\n\nDEBUT AT 83 // AI Short Film by Dan Pradana\nKling 4.0 Flash ·",
+     "metrics": {
+      "bookmark_count": 527,
+      "impression_count": 249487,
+      "like_count": 1038,
+      "quote_count": 0,
+      "reply_count": 12,
+      "retweet_count": 61
+     },
+     "engagement": 1699,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2107484826815311872/img/3J4TJauKc-7EAVeo.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2106770344879272094",
+     "url": "https://x.com/xmliisu/status/2106770344879272094",
+     "author": "xmliisu",
+     "name": "Melisa♡",
+     "followers": 47610,
+     "created_at": "2026-10-04T15:36:06.000Z",
+     "time_local": "2026-10-04 23:36",
+     "text": "This AI Short film is too awesome 🔥\n\nSeedance 2.5",
+     "metrics": {
+      "bookmark_count": 269,
+      "impression_count": 18874,
+      "like_count": 675,
+      "quote_count": 1,
+      "reply_count": 24,
+      "retweet_count": 160
+     },
+     "engagement": 1291,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2106770004293324800/img/oYO11RULL_R8qMj8.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2107335805933150719",
+     "url": "https://x.com/mrdejie/status/2107335805933150719",
+     "author": "mrdejie",
+     "name": "MrDejie",
+     "followers": 10186,
+     "created_at": "2026-10-06T05:03:03.000Z",
+     "time_local": "2026-10-06 13:03",
+     "text": "VEGETARIANS ZOMBIES [short film]\n\nIn a quiet old village, the dead don’t chase people. They wait for vegetables.\n\nMade with Seedance 2.5 on @Flovaai \n\n#FlovaShortFilmChallenge \n#FlovaAI",
+     "metrics": {
+      "bookmark_count": 136,
+      "impression_count": 118862,
+      "like_count": 565,
+      "quote_count": 3,
+      "reply_count": 37,
+      "retweet_count": 36
+     },
+     "engagement": 819,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2107335431163719680/img/61nFvZxrddQKdkww.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2108776569367822342",
+     "url": "https://x.com/MayaMaxwel_/status/2108776569367822342",
+     "author": "MayaMaxwel_",
+     "name": "Maya",
+     "followers": 45088,
+     "created_at": "2026-10-10T04:28:07.000Z",
+     "time_local": "2026-10-10 12:28",
+     "text": "Scholar and the Twin Spirits.\n\nA short film made with Seedance 2.5.\n\nEvery scene brings together atmosphere, character design, and visual storytelling to create the feeling of a full-length fantasy drama.",
+     "metrics": {
+      "bookmark_count": 29,
+      "impression_count": 36291,
+      "like_count": 167,
+      "quote_count": 2,
+      "reply_count": 18,
+      "retweet_count": 110
+     },
+     "engagement": 440,
+     "media": [],
+     "refs": []
+    },
+    {
+     "id": "2107106869936321000",
+     "url": "https://x.com/AmControo/status/2107106869936321000",
+     "author": "AmControo",
+     "name": "Fathela Esq",
+     "followers": 56362,
+     "created_at": "2026-10-05T13:53:20.000Z",
+     "time_local": "2026-10-05 21:53",
+     "text": "A short film \" The last leg \" created using Seedance 2.5 \n\nThe future of fantasy filmmaking is being reimagined,one frame at a time.",
+     "metrics": {
+      "bookmark_count": 52,
+      "impression_count": 32705,
+      "like_count": 132,
+      "quote_count": 0,
+      "reply_count": 38,
+      "retweet_count": 93
+     },
+     "engagement": 408,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2107106749916340224/img/ReblXppHEQ71tTMr.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    }
+   ],
+   "timeline": [
+    {
+     "stage": "源头",
+     "id": "2105555250069610795",
+     "url": "https://x.com/virtucci_DP/status/2105555250069610795",
+     "author": "virtucci_DP",
+     "followers": 29,
+     "created_at": "2026-10-01T07:07:45.000Z",
+     "time_local": "2026-10-01 15:07",
+     "engagement": 0,
+     "text": "Controlling #Seedance with #UnrealEngine | Unreal Engine 5.8 x Seedance 2.5 #MetaHuman Short Film"
+    },
+    {
+     "stage": "峰值",
+     "id": "2106294180456943927",
+     "url": "https://x.com/Magncsans/status/2106294180456943927",
+     "author": "Magncsans",
+     "followers": 7498,
+     "created_at": "2026-10-03T08:04:00.000Z",
+     "time_local": "2026-10-03 16:04",
+     "engagement": 2283,
+     "text": "十天时间，个人手搓300多个分镜，消耗十万积分！\n做出的“爱死机”克苏鲁科幻片《Onyx》\n本视频80%由白模辅助生成\n\n近未来AI突然自己进化出了血肉之驱\n并且除了可以蒸馏人类的知识，甚至还开始“蒸馏”人类的肉身\n它继承的越来越多，我们存"
+    },
+    {
+     "stage": "KOL 跟进",
+     "id": "2106770344879272094",
+     "url": "https://x.com/xmliisu/status/2106770344879272094",
+     "author": "xmliisu",
+     "followers": 47610,
+     "created_at": "2026-10-04T15:36:06.000Z",
+     "time_local": "2026-10-04 23:36",
+     "engagement": 1291,
+     "text": "This AI Short film is too awesome 🔥\n\nSeedance 2.5"
+    },
+    {
+     "stage": "KOL 跟进",
+     "id": "2107106869936321000",
+     "url": "https://x.com/AmControo/status/2107106869936321000",
+     "author": "AmControo",
+     "followers": 56362,
+     "created_at": "2026-10-05T13:53:20.000Z",
+     "time_local": "2026-10-05 21:53",
+     "engagement": 408,
+     "text": "A short film \" The last leg \" created using Seedance 2.5 \n\nThe future of fantasy filmmaking is being reimagined,one fram"
+    },
+    {
+     "stage": "KOL 跟进",
+     "id": "2107335805933150719",
+     "url": "https://x.com/mrdejie/status/2107335805933150719",
+     "author": "mrdejie",
+     "followers": 10186,
+     "created_at": "2026-10-06T05:03:03.000Z",
+     "time_local": "2026-10-06 13:03",
+     "engagement": 819,
+     "text": "VEGETARIANS ZOMBIES [short film]\n\nIn a quiet old village, the dead don’t chase people. They wait for vegetables.\n\nMade w"
+    },
+    {
+     "stage": "KOL 跟进",
+     "id": "2107486727791120624",
+     "url": "https://x.com/mxvdxn/status/2107486727791120624",
+     "author": "mxvdxn",
+     "followers": 26298,
+     "created_at": "2026-10-06T15:02:45.000Z",
+     "time_local": "2026-10-06 23:02",
+     "engagement": 1699,
+     "text": "At 83 years old, a Jakarta photocopy shop owner is ready for his musical debut. He recruits a passing student to photogr"
+    }
+   ],
+   "remixes": [
+    {
+     "id": "2106294180456943927",
+     "url": "https://x.com/Magncsans/status/2106294180456943927",
+     "author": "Magncsans",
+     "name": "Foyege",
+     "followers": 7498,
+     "created_at": "2026-10-03T08:04:00.000Z",
+     "time_local": "2026-10-03 16:04",
+     "text": "十天时间，个人手搓300多个分镜，消耗十万积分！\n做出的“爱死机”克苏鲁科幻片《Onyx》\n本视频80%由白模辅助生成\n\n近未来AI突然自己进化出了血肉之驱\n并且除了可以蒸馏人类的知识，甚至还开始“蒸馏”人类的肉身\n它继承的越来越多，我们存在的理由却越来越少\n\n当机械的心脏长出血肉",
+     "metrics": {
+      "bookmark_count": 413,
+      "impression_count": 128412,
+      "like_count": 1285,
+      "quote_count": 63,
+      "reply_count": 190,
+      "retweet_count": 103
+     },
+     "engagement": 2283,
+     "media": [],
+     "refs": []
+    },
+    {
+     "id": "2107486727791120624",
+     "url": "https://x.com/mxvdxn/status/2107486727791120624",
+     "author": "mxvdxn",
+     "name": "MXVDXN // DAN",
+     "followers": 26298,
+     "created_at": "2026-10-06T15:02:45.000Z",
+     "time_local": "2026-10-06 23:02",
+     "text": "At 83 years old, a Jakarta photocopy shop owner is ready for his musical debut. He recruits a passing student to photograph the album cover, striking awkward poses with the confidence of a veteran music producer.\n\nDEBUT AT 83 // AI Short Film by Dan Pradana\nKling 4.0 Flash ·",
+     "metrics": {
+      "bookmark_count": 527,
+      "impression_count": 249487,
+      "like_count": 1038,
+      "quote_count": 0,
+      "reply_count": 12,
+      "retweet_count": 61
+     },
+     "engagement": 1699,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2107484826815311872/img/3J4TJauKc-7EAVeo.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2106770344879272094",
+     "url": "https://x.com/xmliisu/status/2106770344879272094",
+     "author": "xmliisu",
+     "name": "Melisa♡",
+     "followers": 47610,
+     "created_at": "2026-10-04T15:36:06.000Z",
+     "time_local": "2026-10-04 23:36",
+     "text": "This AI Short film is too awesome 🔥\n\nSeedance 2.5",
+     "metrics": {
+      "bookmark_count": 269,
+      "impression_count": 18874,
+      "like_count": 675,
+      "quote_count": 1,
+      "reply_count": 24,
+      "retweet_count": 160
+     },
+     "engagement": 1291,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2106770004293324800/img/oYO11RULL_R8qMj8.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2107335805933150719",
+     "url": "https://x.com/mrdejie/status/2107335805933150719",
+     "author": "mrdejie",
+     "name": "MrDejie",
+     "followers": 10186,
+     "created_at": "2026-10-06T05:03:03.000Z",
+     "time_local": "2026-10-06 13:03",
+     "text": "VEGETARIANS ZOMBIES [short film]\n\nIn a quiet old village, the dead don’t chase people. They wait for vegetables.\n\nMade with Seedance 2.5 on @Flovaai \n\n#FlovaShortFilmChallenge \n#FlovaAI",
+     "metrics": {
+      "bookmark_count": 136,
+      "impression_count": 118862,
+      "like_count": 565,
+      "quote_count": 3,
+      "reply_count": 37,
+      "retweet_count": 36
+     },
+     "engagement": 819,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2107335431163719680/img/61nFvZxrddQKdkww.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2108776569367822342",
+     "url": "https://x.com/MayaMaxwel_/status/2108776569367822342",
+     "author": "MayaMaxwel_",
+     "name": "Maya",
+     "followers": 45088,
+     "created_at": "2026-10-10T04:28:07.000Z",
+     "time_local": "2026-10-10 12:28",
+     "text": "Scholar and the Twin Spirits.\n\nA short film made with Seedance 2.5.\n\nEvery scene brings together atmosphere, character design, and visual storytelling to create the feeling of a full-length fantasy drama.",
+     "metrics": {
+      "bookmark_count": 29,
+      "impression_count": 36291,
+      "like_count": 167,
+      "quote_count": 2,
+      "reply_count": 18,
+      "retweet_count": 110
+     },
+     "engagement": 440,
+     "media": [],
+     "refs": []
+    },
+    {
+     "id": "2107106869936321000",
+     "url": "https://x.com/AmControo/status/2107106869936321000",
+     "author": "AmControo",
+     "name": "Fathela Esq",
+     "followers": 56362,
+     "created_at": "2026-10-05T13:53:20.000Z",
+     "time_local": "2026-10-05 21:53",
+     "text": "A short film \" The last leg \" created using Seedance 2.5 \n\nThe future of fantasy filmmaking is being reimagined,one frame at a time.",
+     "metrics": {
+      "bookmark_count": 52,
+      "impression_count": 32705,
+      "like_count": 132,
+      "quote_count": 0,
+      "reply_count": 38,
+      "retweet_count": 93
+     },
+     "engagement": 408,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2107106749916340224/img/ReblXppHEQ71tTMr.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    }
+   ]
+  },
+  {
+   "id": "fatfish",
+   "title": "DeepSeek「大肥鱼」合唱 APT",
+   "summary": "中文圈爆梗：DeepSeek 拟人形象「大肥鱼」与梁文锋合唱 APT 的 AI 视频，随后作者放出完整制作拆解。",
+   "breakdown": {
+    "hook": "科技圈名人 × 洗脑神曲 APT",
+    "format": "MV 式对唱短片",
+    "style": "拟人吉祥物 + 真人换脸",
+    "why": "圈内梗 + 名人自嘲，教程续集延长热度"
+   },
+   "heat": 91.7,
+   "engagement_total": 4421,
+   "post_count": 4,
+   "quote_count": 3,
+   "impressions": 411667,
+   "first": "2026-10-04 18:01",
+   "peak": "2026-10-04 18:01",
+   "origin": {
+    "id": "2106686253869695239",
+    "url": "https://x.com/garylau_ai/status/2106686253869695239",
+    "author": "garylau_ai",
+    "followers": 2272,
+    "created_at": "2026-10-04T10:01:57.000Z",
+    "time_local": "2026-10-04 18:01",
+    "engagement": 3776,
+    "text": "梁文峰公开表示 Deepseek 的唯一拟人形象是大肥鱼\n\n为此他还特地和大肥鱼合唱了 APT ⬇️⬇️⬇️",
+    "media": [],
+    "metrics": {
+     "bookmark_count": 803,
+     "impression_count": 378571,
+     "like_count": 2312,
+     "quote_count": 47,
+     "reply_count": 116,
+     "retweet_count": 202
+    }
+   },
+   "posts": [
+    {
+     "id": "2106686253869695239",
+     "url": "https://x.com/garylau_ai/status/2106686253869695239",
+     "author": "garylau_ai",
+     "name": "Claude最严厉的父亲",
+     "followers": 2272,
+     "created_at": "2026-10-04T10:01:57.000Z",
+     "time_local": "2026-10-04 18:01",
+     "text": "梁文峰公开表示 Deepseek 的唯一拟人形象是大肥鱼\n\n为此他还特地和大肥鱼合唱了 APT ⬇️⬇️⬇️",
+     "metrics": {
+      "bookmark_count": 803,
+      "impression_count": 378571,
+      "like_count": 2312,
+      "quote_count": 47,
+      "reply_count": 116,
+      "retweet_count": 202
+     },
+     "engagement": 3776,
+     "media": [],
+     "refs": []
+    },
+    {
+     "id": "2107389748621054464",
+     "url": "https://x.com/garylau_ai/status/2107389748621054464",
+     "author": "garylau_ai",
+     "name": "Claude最严厉的父亲",
+     "followers": 2272,
+     "created_at": "2026-10-06T08:37:24.000Z",
+     "time_local": "2026-10-06 16:37",
+     "text": "梁圣大肥鱼AI视频制作教程来了😋\n00:00–01:48｜从人物资产卡开始：整体流程介绍，以及人物资产卡的制作。\n01:48–03:57｜拆解原片，准备参考素材：Codex 分镜、换人参考图与长镜头分段。\n03:57–05:33｜提示词与双 DGX 生成：MiniMax H3 工作流、提示词组织和双机生成。 https://t.co/7kKMnJf3vP",
+     "metrics": {
+      "bookmark_count": 284,
+      "impression_count": 33014,
+      "like_count": 242,
+      "quote_count": 12,
+      "reply_count": 26,
+      "retweet_count": 28
+     },
+     "engagement": 644,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2107388072962990080/img/DTABQNfKinShKqFr.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": [
+      {
+       "id": "2106686253869695239",
+       "type": "quoted"
+      }
+     ]
+    },
+    {
+     "id": "2108014112022446084",
+     "url": "https://x.com/tong_psy/status/2108014112022446084",
+     "author": "tong_psy",
+     "name": "Tong Lu",
+     "followers": 108,
+     "created_at": "2026-10-08T01:58:23.000Z",
+     "time_local": "2026-10-08 09:58",
+     "text": "久闻杭州巨鲸帮帮主，梁文锋梁大侠神功盖世。今日得见，果然名不虚传。",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 74,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "repost_count": 0,
+      "retweet_count": 0
+     },
+     "engagement": 1,
+     "media": [],
+     "refs": [
+      {
+       "id": "2106686253869695239",
+       "type": "quoted"
+      }
+     ]
+    },
+    {
+     "id": "2107931291010080862",
+     "url": "https://x.com/UrbitCa/status/2107931291010080862",
+     "author": "UrbitCa",
+     "name": "Urbit Canada",
+     "followers": 9,
+     "created_at": "2026-10-07T20:29:17.000Z",
+     "time_local": "2026-10-08 04:29",
+     "text": "This is really good!",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 8,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "repost_count": 0,
+      "retweet_count": 0
+     },
+     "engagement": 0,
+     "media": [],
+     "refs": [
+      {
+       "id": "2106686253869695239",
+       "type": "quoted"
+      }
+     ]
+    }
+   ],
+   "timeline": [
+    {
+     "stage": "源头",
+     "id": "2106686253869695239",
+     "url": "https://x.com/garylau_ai/status/2106686253869695239",
+     "author": "garylau_ai",
+     "followers": 2272,
+     "created_at": "2026-10-04T10:01:57.000Z",
+     "time_local": "2026-10-04 18:01",
+     "engagement": 3776,
+     "text": "梁文峰公开表示 Deepseek 的唯一拟人形象是大肥鱼\n\n为此他还特地和大肥鱼合唱了 APT ⬇️⬇️⬇️"
+    },
+    {
+     "stage": "原作者自引用",
+     "id": "2107389748621054464",
+     "url": "https://x.com/garylau_ai/status/2107389748621054464",
+     "author": "garylau_ai",
+     "followers": 2272,
+     "created_at": "2026-10-06T08:37:24.000Z",
+     "time_local": "2026-10-06 16:37",
+     "engagement": 644,
+     "text": "梁圣大肥鱼AI视频制作教程来了😋\n00:00–01:48｜从人物资产卡开始：整体流程介绍，以及人物资产卡的制作。\n01:48–03:57｜拆解原片，准备参考素材：Codex 分镜、换人参考图与长镜头分段。\n03:57–05:33｜提示词与双"
+    },
+    {
+     "stage": "引用二创 ← @garylau_ai",
+     "id": "2107931291010080862",
+     "url": "https://x.com/UrbitCa/status/2107931291010080862",
+     "author": "UrbitCa",
+     "followers": 9,
+     "created_at": "2026-10-07T20:29:17.000Z",
+     "time_local": "2026-10-08 04:29",
+     "engagement": 0,
+     "text": "This is really good!"
+    },
+    {
+     "stage": "引用二创 ← @garylau_ai",
+     "id": "2108014112022446084",
+     "url": "https://x.com/tong_psy/status/2108014112022446084",
+     "author": "tong_psy",
+     "followers": 108,
+     "created_at": "2026-10-08T01:58:23.000Z",
+     "time_local": "2026-10-08 09:58",
+     "engagement": 1,
+     "text": "久闻杭州巨鲸帮帮主，梁文锋梁大侠神功盖世。今日得见，果然名不虚传。"
+    }
+   ],
+   "remixes": [
+    {
+     "id": "2108014112022446084",
+     "url": "https://x.com/tong_psy/status/2108014112022446084",
+     "author": "tong_psy",
+     "name": "Tong Lu",
+     "followers": 108,
+     "created_at": "2026-10-08T01:58:23.000Z",
+     "time_local": "2026-10-08 09:58",
+     "text": "久闻杭州巨鲸帮帮主，梁文锋梁大侠神功盖世。今日得见，果然名不虚传。",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 74,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "repost_count": 0,
+      "retweet_count": 0
+     },
+     "engagement": 1,
+     "media": [],
+     "refs": [
+      {
+       "id": "2106686253869695239",
+       "type": "quoted"
+      }
+     ]
+    },
+    {
+     "id": "2107931291010080862",
+     "url": "https://x.com/UrbitCa/status/2107931291010080862",
+     "author": "UrbitCa",
+     "name": "Urbit Canada",
+     "followers": 9,
+     "created_at": "2026-10-07T20:29:17.000Z",
+     "time_local": "2026-10-08 04:29",
+     "text": "This is really good!",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 8,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "repost_count": 0,
+      "retweet_count": 0
+     },
+     "engagement": 0,
+     "media": [],
+     "refs": [
+      {
+       "id": "2106686253869695239",
+       "type": "quoted"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aichar",
+   "title": "AI 虚拟角色走红：Edna Mode 真人版 / Jean Phil",
+   "summary": "AI 生成的「真人版卡通角色」与虚拟人账号在 IG / X 上两天涨粉数万、播放破千万，引发「AI 角色能否成为网红」讨论。",
+   "breakdown": {
+    "hook": "卡通角色「真人化」/ 一张有辨识度的脸",
+    "format": "角色日更短视频（街头、日常）",
+    "style": "超写实街拍",
+    "why": "强记忆点人设 + 跨平台搬运，数据截图本身成为二次传播素材"
+   },
+   "heat": 70.9,
+   "engagement_total": 976,
+   "post_count": 14,
+   "quote_count": 2,
+   "impressions": 233106,
+   "first": "2026-10-05 08:21",
+   "peak": "2026-10-10 00:16",
+   "origin": {
+    "id": "2106902488687235513",
+    "url": "https://x.com/igetsjiggy6767/status/2106902488687235513",
+    "author": "igetsjiggy6767",
+    "followers": 798,
+    "created_at": "2026-10-05T00:21:12.000Z",
+    "time_local": "2026-10-05 08:21",
+    "engagement": 0,
+    "text": "New Jean Phil?\n\nA new AI Influencer is going viral\n\nhttps://t.co/bETafbEzgJ",
+    "media": [],
+    "metrics": {
+     "bookmark_count": 0,
+     "impression_count": 185,
+     "like_count": 0,
+     "quote_count": 0,
+     "reply_count": 0,
+     "retweet_count": 0
+    }
+   },
+   "posts": [
+    {
+     "id": "2108592426223083831",
+     "url": "https://x.com/viipin8/status/2108592426223083831",
+     "author": "viipin8",
+     "name": "Vipin Gautam (Viipin I Gautam)",
+     "followers": 20284,
+     "created_at": "2026-10-09T16:16:24.000Z",
+     "time_local": "2026-10-10 00:16",
+     "text": "Jean Phil is proof that one recognizable AI character can inspire a whole wave of remixes.\n\nNow imagine applying that idea to product marketing.\n\nInstead of hiring a new character for every concept, I can start by building my own with GPT Image 2.5, now available in CapCut",
+     "metrics": {
+      "bookmark_count": 139,
+      "impression_count": 222793,
+      "like_count": 414,
+      "quote_count": 1,
+      "reply_count": 19,
+      "retweet_count": 129
+     },
+     "engagement": 833,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2108592350058745856/img/5rIlMTInKru4S2fX.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2107063232049389675",
+     "url": "https://x.com/Scratcherrrr/status/2107063232049389675",
+     "author": "Scratcherrrr",
+     "name": "Catcher of your mind",
+     "followers": 1114,
+     "created_at": "2026-10-05T10:59:56.000Z",
+     "time_local": "2026-10-05 18:59",
+     "text": "an ai character. 15 posts. 117 million views.\n\njean phil started posting less than two weeks ago.\nalready 400k plus followers on tiktok and instagram.\nwhy it went viral.\n\nthey made a character you recognize instantly.\nsame look in every video.\nhair outfit everything locked in. https://t.co/RZLUFZpWwF",
+     "metrics": {
+      "bookmark_count": 10,
+      "impression_count": 609,
+      "like_count": 16,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "engagement": 28,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/media/HT3Kss7WEAA0giQ.jpg",
+       "type": "photo"
+      },
+      {
+       "src": "https://pbs.twimg.com/media/HT3Kss5XcAAaYb5.jpg",
+       "type": "photo"
+      }
+     ],
+     "refs": [
+      {
+       "id": "2107035428591198450",
+       "type": "quoted"
+      }
+     ]
+    },
+    {
+     "id": "2108498086955778552",
+     "url": "https://x.com/barnsszn2/status/2108498086955778552",
+     "author": "barnsszn2",
+     "name": "barnabas",
+     "followers": 1861,
+     "created_at": "2026-10-09T10:01:32.000Z",
+     "time_local": "2026-10-09 18:01",
+     "text": "With Jean Phil hitting a 16M ATH, we've seen the rise of AI influencers.\n\nThere's a new one going viral on TikTok, and it's different from the others because it's created from a real character. \nPaul Grayson, the AI character, has every video hitting 500K to millions of views.",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2090,
+      "like_count": 14,
+      "quote_count": 1,
+      "reply_count": 8,
+      "retweet_count": 1
+     },
+     "engagement": 27,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/media/HULj1U1XkAAF3f0.jpg",
+       "type": "photo"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2109283962367385648",
+     "url": "https://x.com/Shelpid_WI3M/status/2109283962367385648",
+     "author": "Shelpid_WI3M",
+     "name": "Shelpid.WI3M",
+     "followers": 53518,
+     "created_at": "2026-10-11T14:04:19.000Z",
+     "time_local": "2026-10-11 22:04",
+     "text": "A cartoon character just got 2.7M likes in real life.\n\nMeet Edna Mode\n\nBlack bob, giant round glasses, zero patience for capes.\n\nBio: \"No capes, darling. Parody account.\"\n\n→ 64.5K followers.\n→ 2.7M likes.\n→ Pinned clip: 10.2M views.\n\nThe trick? Nobody's sure if she's real.\nShe",
+     "metrics": {
+      "bookmark_count": 6,
+      "impression_count": 3686,
+      "like_count": 16,
+      "quote_count": 1,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "engagement": 27,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/media/HUWuC16XoAASU2M.jpg",
+       "type": "photo"
+      },
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2109283382911762432/img/cJ7B-HHFqycvqG8v.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2107090258466656640",
+     "url": "https://x.com/0x_CryptoFuture/status/2107090258466656640",
+     "author": "0x_CryptoFuture",
+     "name": "iOne",
+     "followers": 1052,
+     "created_at": "2026-10-05T12:47:20.000Z",
+     "time_local": "2026-10-05 20:47",
+     "text": "Jean Phil first known Instagram post landed on the 17th: blond bob silently shadowboxing through Paris streets  \n\nin a few days the account passed 228k followers. One park clip under Dilemma hit about 5.6M views. He never explained himself and barely spoke  \n\ntwo days later, on https://t.co/3smB62LYC4",
+     "metrics": {
+      "bookmark_count": 5,
+      "impression_count": 293,
+      "like_count": 16,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 0
+     },
+     "engagement": 24,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2107090185708036096/img/zB2MvrJ6rmYNDzPe.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": [
+      {
+       "id": "2107035428591198450",
+       "type": "quoted"
+      }
+     ]
+    },
+    {
+     "id": "2109285320478859659",
+     "url": "https://x.com/prburman/status/2109285320478859659",
+     "author": "prburman",
+     "name": "Burmeister",
+     "followers": 142,
+     "created_at": "2026-10-11T14:09:43.000Z",
+     "time_local": "2026-10-11 22:09",
+     "text": "Just found the next Jean Phil\n\n\"Edna Mode\"\n\nLAUNCHING ON AGENCY!!\n\nTiktok link, so viral: https://t.co/tFwbkRc0yJ",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 983,
+      "like_count": 2,
+      "quote_count": 3,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "engagement": 15,
+     "media": [],
+     "refs": [
+      {
+       "id": "2109283962367385648",
+       "type": "quoted"
+      }
+     ]
+    }
+   ],
+   "timeline": [
+    {
+     "stage": "源头",
+     "id": "2106902488687235513",
+     "url": "https://x.com/igetsjiggy6767/status/2106902488687235513",
+     "author": "igetsjiggy6767",
+     "followers": 798,
+     "created_at": "2026-10-05T00:21:12.000Z",
+     "time_local": "2026-10-05 08:21",
+     "engagement": 0,
+     "text": "New Jean Phil?\n\nA new AI Influencer is going viral\n\nhttps://t.co/bETafbEzgJ"
+    },
+    {
+     "stage": "引用二创 ← @jinwoo33x",
+     "id": "2107085841147613356",
+     "url": "https://x.com/jinwoo33x/status/2107085841147613356",
+     "author": "jinwoo33x",
+     "followers": 185,
+     "created_at": "2026-10-05T12:29:46.000Z",
+     "time_local": "2026-10-05 20:29",
+     "engagement": 3,
+     "text": "𝗔𝗻 𝗔𝗜 𝗰𝗵𝗮𝗿𝗮𝗰𝘁𝗲𝗿 Jean Phil 𝘄𝗶𝘁𝗵 10 𝘃𝗶𝗱𝗲𝗼𝘀 𝗷𝘂𝘀𝘁 𝗰𝗹𝗲𝗮𝗿𝗲𝗱 238𝗞 𝗳𝗼𝗹𝗹𝗼𝘄𝗲𝗿𝘀 𝗮𝗻𝗱 51𝗠 𝘃𝗶𝗲𝘄𝘀 on Instagram. 🔥🤳📱\n\nThe stats:\n\n- 10 p"
+    },
+    {
+     "stage": "二创/仿作",
+     "id": "2108498086955778552",
+     "url": "https://x.com/barnsszn2/status/2108498086955778552",
+     "author": "barnsszn2",
+     "followers": 1861,
+     "created_at": "2026-10-09T10:01:32.000Z",
+     "time_local": "2026-10-09 18:01",
+     "engagement": 27,
+     "text": "With Jean Phil hitting a 16M ATH, we've seen the rise of AI influencers.\n\nThere's a new one going viral on TikTok, and i"
+    },
+    {
+     "stage": "峰值",
+     "id": "2108592426223083831",
+     "url": "https://x.com/viipin8/status/2108592426223083831",
+     "author": "viipin8",
+     "followers": 20284,
+     "created_at": "2026-10-09T16:16:24.000Z",
+     "time_local": "2026-10-10 00:16",
+     "engagement": 833,
+     "text": "Jean Phil is proof that one recognizable AI character can inspire a whole wave of remixes.\n\nNow imagine applying that id"
+    },
+    {
+     "stage": "KOL 跟进",
+     "id": "2109283962367385648",
+     "url": "https://x.com/Shelpid_WI3M/status/2109283962367385648",
+     "author": "Shelpid_WI3M",
+     "followers": 53518,
+     "created_at": "2026-10-11T14:04:19.000Z",
+     "time_local": "2026-10-11 22:04",
+     "engagement": 27,
+     "text": "A cartoon character just got 2.7M likes in real life.\n\nMeet Edna Mode\n\nBlack bob, giant round glasses, zero patience for"
+    },
+    {
+     "stage": "引用二创 ← @Shelpid_WI3M",
+     "id": "2109285320478859659",
+     "url": "https://x.com/prburman/status/2109285320478859659",
+     "author": "prburman",
+     "followers": 142,
+     "created_at": "2026-10-11T14:09:43.000Z",
+     "time_local": "2026-10-11 22:09",
+     "engagement": 15,
+     "text": "Just found the next Jean Phil\n\n\"Edna Mode\"\n\nLAUNCHING ON AGENCY!!\n\nTiktok link, so viral: https://t.co/tFwbkRc0yJ"
+    }
+   ],
+   "remixes": [
+    {
+     "id": "2108592426223083831",
+     "url": "https://x.com/viipin8/status/2108592426223083831",
+     "author": "viipin8",
+     "name": "Vipin Gautam (Viipin I Gautam)",
+     "followers": 20284,
+     "created_at": "2026-10-09T16:16:24.000Z",
+     "time_local": "2026-10-10 00:16",
+     "text": "Jean Phil is proof that one recognizable AI character can inspire a whole wave of remixes.\n\nNow imagine applying that idea to product marketing.\n\nInstead of hiring a new character for every concept, I can start by building my own with GPT Image 2.5, now available in CapCut",
+     "metrics": {
+      "bookmark_count": 139,
+      "impression_count": 222793,
+      "like_count": 414,
+      "quote_count": 1,
+      "reply_count": 19,
+      "retweet_count": 129
+     },
+     "engagement": 833,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2108592350058745856/img/5rIlMTInKru4S2fX.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2107063232049389675",
+     "url": "https://x.com/Scratcherrrr/status/2107063232049389675",
+     "author": "Scratcherrrr",
+     "name": "Catcher of your mind",
+     "followers": 1114,
+     "created_at": "2026-10-05T10:59:56.000Z",
+     "time_local": "2026-10-05 18:59",
+     "text": "an ai character. 15 posts. 117 million views.\n\njean phil started posting less than two weeks ago.\nalready 400k plus followers on tiktok and instagram.\nwhy it went viral.\n\nthey made a character you recognize instantly.\nsame look in every video.\nhair outfit everything locked in. https://t.co/RZLUFZpWwF",
+     "metrics": {
+      "bookmark_count": 10,
+      "impression_count": 609,
+      "like_count": 16,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "engagement": 28,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/media/HT3Kss7WEAA0giQ.jpg",
+       "type": "photo"
+      },
+      {
+       "src": "https://pbs.twimg.com/media/HT3Kss5XcAAaYb5.jpg",
+       "type": "photo"
+      }
+     ],
+     "refs": [
+      {
+       "id": "2107035428591198450",
+       "type": "quoted"
+      }
+     ]
+    },
+    {
+     "id": "2108498086955778552",
+     "url": "https://x.com/barnsszn2/status/2108498086955778552",
+     "author": "barnsszn2",
+     "name": "barnabas",
+     "followers": 1861,
+     "created_at": "2026-10-09T10:01:32.000Z",
+     "time_local": "2026-10-09 18:01",
+     "text": "With Jean Phil hitting a 16M ATH, we've seen the rise of AI influencers.\n\nThere's a new one going viral on TikTok, and it's different from the others because it's created from a real character. \nPaul Grayson, the AI character, has every video hitting 500K to millions of views.",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2090,
+      "like_count": 14,
+      "quote_count": 1,
+      "reply_count": 8,
+      "retweet_count": 1
+     },
+     "engagement": 27,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/media/HULj1U1XkAAF3f0.jpg",
+       "type": "photo"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2109283962367385648",
+     "url": "https://x.com/Shelpid_WI3M/status/2109283962367385648",
+     "author": "Shelpid_WI3M",
+     "name": "Shelpid.WI3M",
+     "followers": 53518,
+     "created_at": "2026-10-11T14:04:19.000Z",
+     "time_local": "2026-10-11 22:04",
+     "text": "A cartoon character just got 2.7M likes in real life.\n\nMeet Edna Mode\n\nBlack bob, giant round glasses, zero patience for capes.\n\nBio: \"No capes, darling. Parody account.\"\n\n→ 64.5K followers.\n→ 2.7M likes.\n→ Pinned clip: 10.2M views.\n\nThe trick? Nobody's sure if she's real.\nShe",
+     "metrics": {
+      "bookmark_count": 6,
+      "impression_count": 3686,
+      "like_count": 16,
+      "quote_count": 1,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "engagement": 27,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/media/HUWuC16XoAASU2M.jpg",
+       "type": "photo"
+      },
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2109283382911762432/img/cJ7B-HHFqycvqG8v.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2107090258466656640",
+     "url": "https://x.com/0x_CryptoFuture/status/2107090258466656640",
+     "author": "0x_CryptoFuture",
+     "name": "iOne",
+     "followers": 1052,
+     "created_at": "2026-10-05T12:47:20.000Z",
+     "time_local": "2026-10-05 20:47",
+     "text": "Jean Phil first known Instagram post landed on the 17th: blond bob silently shadowboxing through Paris streets  \n\nin a few days the account passed 228k followers. One park clip under Dilemma hit about 5.6M views. He never explained himself and barely spoke  \n\ntwo days later, on https://t.co/3smB62LYC4",
+     "metrics": {
+      "bookmark_count": 5,
+      "impression_count": 293,
+      "like_count": 16,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 0
+     },
+     "engagement": 24,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2107090185708036096/img/zB2MvrJ6rmYNDzPe.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": [
+      {
+       "id": "2107035428591198450",
+       "type": "quoted"
+      }
+     ]
+    },
+    {
+     "id": "2109285320478859659",
+     "url": "https://x.com/prburman/status/2109285320478859659",
+     "author": "prburman",
+     "name": "Burmeister",
+     "followers": 142,
+     "created_at": "2026-10-11T14:09:43.000Z",
+     "time_local": "2026-10-11 22:09",
+     "text": "Just found the next Jean Phil\n\n\"Edna Mode\"\n\nLAUNCHING ON AGENCY!!\n\nTiktok link, so viral: https://t.co/tFwbkRc0yJ",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 983,
+      "like_count": 2,
+      "quote_count": 3,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "engagement": 15,
+     "media": [],
+     "refs": [
+      {
+       "id": "2109283962367385648",
+       "type": "quoted"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "lego",
+   "title": "LEGO AI Music Video 政治讽刺 MV 系列",
+   "summary": "@drew_ponder 持续发布的乐高风格 AI 音乐视频，以时政人物为主角的讽刺 MV，形成固定栏目。",
+   "breakdown": {
+    "hook": "乐高小人演绎时政热点",
+    "format": "系列化 MV，固定标题后缀",
+    "style": "乐高定格动画质感",
+    "why": "时事热点 + 统一品牌化包装，便于粉丝追更与站队转发"
+   },
+   "heat": 59.6,
+   "engagement_total": 590,
+   "post_count": 14,
+   "quote_count": 0,
+   "impressions": 28812,
+   "first": "2026-09-26 01:57",
+   "peak": "2026-09-28 02:43",
+   "origin": {
+    "id": "2103544330585870567",
+    "url": "https://x.com/drew_ponder/status/2103544330585870567",
+    "author": "drew_ponder",
+    "followers": 18218,
+    "created_at": "2026-09-25T17:57:05.000Z",
+    "time_local": "2026-09-26 01:57",
+    "engagement": 21,
+    "text": "Choosin' Green 💚\n\nLEGO Star Wars Ai Music Video",
+    "media": [
+     {
+      "src": "https://pbs.twimg.com/amplify_video_thumb/2103543308563931136/img/qVnIxzGgzJ9Ob0gl.jpg",
+      "type": "video"
+     }
+    ],
+    "metrics": {
+     "bookmark_count": 3,
+     "impression_count": 942,
+     "like_count": 8,
+     "quote_count": 1,
+     "reply_count": 1,
+     "retweet_count": 3
+    }
+   },
+   "posts": [
+    {
+     "id": "2104280721473126725",
+     "url": "https://x.com/drew_ponder/status/2104280721473126725",
+     "author": "drew_ponder",
+     "name": "Drew Ponder",
+     "followers": 18218,
+     "created_at": "2026-09-27T18:43:14.000Z",
+     "time_local": "2026-09-28 02:43",
+     "text": "🇮🇱 GENOCIDE 🇵🇸\n\nLEGO Ai Music Video 🎵",
+     "metrics": {
+      "bookmark_count": 24,
+      "impression_count": 11382,
+      "like_count": 118,
+      "quote_count": 6,
+      "reply_count": 6,
+      "retweet_count": 66
+     },
+     "engagement": 298,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2104279292742107136/img/Dp8J4YXW60cUUOIV.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2103907837684646185",
+     "url": "https://x.com/drew_ponder/status/2103907837684646185",
+     "author": "drew_ponder",
+     "name": "Drew Ponder",
+     "followers": 18218,
+     "created_at": "2026-09-26T18:01:31.000Z",
+     "time_local": "2026-09-27 02:01",
+     "text": "STRAIT OUTTA IRAN 4 🌮🧀\n\nMy new LEGO Ai Music Video 🎵",
+     "metrics": {
+      "bookmark_count": 4,
+      "impression_count": 12704,
+      "like_count": 31,
+      "quote_count": 3,
+      "reply_count": 6,
+      "retweet_count": 12
+     },
+     "engagement": 74,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2103906333250719744/img/u0d0aqP2073i3PQq.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2106791795736867237",
+     "url": "https://x.com/drew_ponder/status/2106791795736867237",
+     "author": "drew_ponder",
+     "name": "Drew Ponder",
+     "followers": 18218,
+     "created_at": "2026-10-04T17:01:21.000Z",
+     "time_local": "2026-10-05 01:01",
+     "text": "🇮🇱 GENOCIDE 🇵🇸\n\nLEGO Ai Music Video 🎵",
+     "metrics": {
+      "bookmark_count": 7,
+      "impression_count": 599,
+      "like_count": 26,
+      "quote_count": 1,
+      "reply_count": 0,
+      "retweet_count": 11
+     },
+     "engagement": 58,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2104279292742107136/img/Dp8J4YXW60cUUOIV.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2106792043431543013",
+     "url": "https://x.com/drew_ponder/status/2106792043431543013",
+     "author": "drew_ponder",
+     "name": "Drew Ponder",
+     "followers": 18218,
+     "created_at": "2026-10-04T17:02:20.000Z",
+     "time_local": "2026-10-05 01:02",
+     "text": "🔥 It’s the End Times as JD Knows It (And He’s Okay) \n📢 #JDVance #Antichrist #EndTimes #Apocalypse \n🧱 LEGO Ai Music Video",
+     "metrics": {
+      "bookmark_count": 4,
+      "impression_count": 540,
+      "like_count": 10,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 9
+     },
+     "engagement": 34,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2095289588877328385/img/Ih5seU6-kIpCkqJt.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2107195368593080594",
+     "url": "https://x.com/drew_ponder/status/2107195368593080594",
+     "author": "drew_ponder",
+     "name": "Drew Ponder",
+     "followers": 18218,
+     "created_at": "2026-10-05T19:45:00.000Z",
+     "time_local": "2026-10-06 03:45",
+     "text": "🖨️ Natalie 📢 Natalie Harp Trump Melania 🧱 LEGO Ai Music Video",
+     "metrics": {
+      "bookmark_count": 4,
+      "impression_count": 608,
+      "like_count": 11,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 8
+     },
+     "engagement": 31,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2106940640089313280/img/DU-t2gxWe-LCl07l.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2108669340476444876",
+     "url": "https://x.com/drew_ponder/status/2108669340476444876",
+     "author": "drew_ponder",
+     "name": "Drew Ponder",
+     "followers": 18218,
+     "created_at": "2026-10-09T21:22:02.000Z",
+     "time_local": "2026-10-10 05:22",
+     "text": "HALLELUJAH, HOLY SHIT ✝️ (LEGO AI Music Video)",
+     "metrics": {
+      "bookmark_count": 2,
+      "impression_count": 480,
+      "like_count": 9,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 6
+     },
+     "engagement": 23,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2104658015186231296/img/aS7y34gBYhtJWOjc.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    }
+   ],
+   "timeline": [
+    {
+     "stage": "源头",
+     "id": "2103544330585870567",
+     "url": "https://x.com/drew_ponder/status/2103544330585870567",
+     "author": "drew_ponder",
+     "followers": 18218,
+     "created_at": "2026-09-25T17:57:05.000Z",
+     "time_local": "2026-09-26 01:57",
+     "engagement": 21,
+     "text": "Choosin' Green 💚\n\nLEGO Star Wars Ai Music Video"
+    },
+    {
+     "stage": "峰值",
+     "id": "2104280721473126725",
+     "url": "https://x.com/drew_ponder/status/2104280721473126725",
+     "author": "drew_ponder",
+     "followers": 18218,
+     "created_at": "2026-09-27T18:43:14.000Z",
+     "time_local": "2026-09-28 02:43",
+     "engagement": 298,
+     "text": "🇮🇱 GENOCIDE 🇵🇸\n\nLEGO Ai Music Video 🎵"
+    },
+    {
+     "stage": "二创/仿作",
+     "id": "2104290305252143447",
+     "url": "https://x.com/1foolon1hill/status/2104290305252143447",
+     "author": "1foolon1hill",
+     "followers": 2072,
+     "created_at": "2026-09-27T19:21:19.000Z",
+     "time_local": "2026-09-28 03:21",
+     "engagement": 0,
+     "text": "GENOCIDE 🎵 LEGO Ai Music Video https://t.co/EzF98Z8Q42 via @YouTube"
+    },
+    {
+     "stage": "二创/仿作",
+     "id": "2105460480487878923",
+     "url": "https://x.com/Darren25qq4/status/2105460480487878923",
+     "author": "Darren25qq4",
+     "followers": 2272,
+     "created_at": "2026-10-01T00:51:10.000Z",
+     "time_local": "2026-10-01 08:51",
+     "engagement": 7,
+     "text": "United States of Israel🇮🇱-A Lego AI music video.\nCredit to whoever made this👍"
+    },
+    {
+     "stage": "二创/仿作",
+     "id": "2109472376081760513",
+     "url": "https://x.com/NursesSavingUSA/status/2109472376081760513",
+     "author": "NursesSavingUSA",
+     "followers": 199,
+     "created_at": "2026-10-12T02:33:01.000Z",
+     "time_local": "2026-10-12 10:33",
+     "engagement": 0,
+     "text": "HALLELUJAH, HOLY SHIT ✝️ (LEGO AI Music Video) \n\nhttps://t.co/SGqb98HgIB via @Yo"
+    }
+   ],
+   "remixes": [
+    {
+     "id": "2105460480487878923",
+     "url": "https://x.com/Darren25qq4/status/2105460480487878923",
+     "author": "Darren25qq4",
+     "name": "🏴󠁧󠁢󠁳󠁣󠁴󠁿Darren25🇬🇧",
+     "followers": 2272,
+     "created_at": "2026-10-01T00:51:10.000Z",
+     "time_local": "2026-10-01 08:51",
+     "text": "United States of Israel🇮🇱-A Lego AI music video.\nCredit to whoever made this👍",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 111,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 2
+     },
+     "engagement": 7,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2105313846361546752/img/j3dZ0d05OuSzg-dL.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2104290305252143447",
+     "url": "https://x.com/1foolon1hill/status/2104290305252143447",
+     "author": "1foolon1hill",
+     "name": "jack o'malley",
+     "followers": 2072,
+     "created_at": "2026-09-27T19:21:19.000Z",
+     "time_local": "2026-09-28 03:21",
+     "text": "GENOCIDE 🎵 LEGO Ai Music Video https://t.co/EzF98Z8Q42 via @YouTube",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 20,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "engagement": 0,
+     "media": [],
+     "refs": []
+    },
+    {
+     "id": "2109472376081760513",
+     "url": "https://x.com/NursesSavingUSA/status/2109472376081760513",
+     "author": "NursesSavingUSA",
+     "name": "AmericaOnlyNP",
+     "followers": 199,
+     "created_at": "2026-10-12T02:33:01.000Z",
+     "time_local": "2026-10-12 10:33",
+     "text": "HALLELUJAH, HOLY SHIT ✝️ (LEGO AI Music Video) \n\nhttps://t.co/SGqb98HgIB via @Yo",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 16,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "engagement": 0,
+     "media": [],
+     "refs": []
+    }
+   ]
+  },
+  {
+   "id": "xiyou",
+   "title": "西游记 AI 新编：西游记在纽约",
+   "summary": "把《西游记》角色丢进现代都市与跨界设定：悟空在曼哈顿大战灭霸、「师父购物，徒儿护驾」、悟空穿过时代广场、八戒误入唐人街。",
+   "breakdown": {
+    "hook": "国民 IP × 错位时空：取经团出现在曼哈顿 / 时代广场 / 唐人街",
+    "format": "电影感短片 + 一句话设定文案（「当西游记在纽约醒来」）",
+    "style": "写实摄影风、摩天楼与霓虹都市夜景、跨界大战",
+    "why": "IP 自带认知、东西方反差设定天然好奇；中文圈转推矩阵集中转发，日语圈也有偶像化二创"
+   },
+   "heat": 55.6,
+   "engagement_total": 501,
+   "post_count": 17,
+   "quote_count": 2,
+   "impressions": 38507,
+   "first": "2026-09-16 11:40",
+   "peak": "2026-09-16 11:40",
+   "origin": {
+    "id": "2100067391497728046",
+    "url": "https://x.com/aynellex/status/2100067391497728046",
+    "author": "aynellex",
+    "followers": 8102,
+    "created_at": "2026-09-16T03:40:58.000Z",
+    "time_local": "2026-09-16 11:40",
+    "engagement": 162,
+    "text": "From Manhattan chaos to mythological power. ⚡\n\nCreated with Seedance 2.5\n\nAn ultra-photorealistic cinematic crossover — ",
+    "media": [
+     {
+      "src": "https://pbs.twimg.com/amplify_video_thumb/2100067189877604352/img/3Jhd-LVY1HbxFSel.jpg",
+      "type": "video"
+     }
+    ],
+    "metrics": {
+     "bookmark_count": 10,
+     "impression_count": 8383,
+     "like_count": 116,
+     "quote_count": 0,
+     "reply_count": 34,
+     "retweet_count": 1
+    }
+   },
+   "posts": [
+    {
+     "id": "2100067391497728046",
+     "url": "https://x.com/aynellex/status/2100067391497728046",
+     "author": "aynellex",
+     "name": "Aynelle",
+     "followers": 8102,
+     "created_at": "2026-09-16T03:40:58.000Z",
+     "time_local": "2026-09-16 11:40",
+     "text": "From Manhattan chaos to mythological power. ⚡\n\nCreated with Seedance 2.5\n\nAn ultra-photorealistic cinematic crossover — Wukong battles Thanos through a destroyed New York City, awakens his golden power, transforms into a giant warrior, and ends above the Manhattan skyline.",
+     "metrics": {
+      "bookmark_count": 10,
+      "impression_count": 8383,
+      "like_count": 116,
+      "quote_count": 0,
+      "reply_count": 34,
+      "retweet_count": 1
+     },
+     "engagement": 162,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2100067189877604352/img/3Jhd-LVY1HbxFSel.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2103633608259055911",
+     "url": "https://x.com/PixelAigc/status/2103633608259055911",
+     "author": "PixelAigc",
+     "name": "PixelAIGC",
+     "followers": 8967,
+     "created_at": "2026-09-25T23:51:50.000Z",
+     "time_local": "2026-09-26 07:51",
+     "text": "真厉害啊！\n师父购物，徒儿护驾。\nH3本地参考生成，9张图输入，15秒生成。\nLORA 8步，480P超分至1080P\n一键输出，无剪辑，有BUG。\n\nprompt 视频提示词如下：",
+     "metrics": {
+      "bookmark_count": 51,
+      "impression_count": 15336,
+      "like_count": 60,
+      "quote_count": 2,
+      "reply_count": 6,
+      "retweet_count": 7
+     },
+     "engagement": 137,
+     "media": [],
+     "refs": []
+    },
+    {
+     "id": "2106758000203731351",
+     "url": "https://x.com/btc5887899/status/2106758000203731351",
+     "author": "btc5887899",
+     "name": "花卷",
+     "followers": 1437,
+     "created_at": "2026-10-04T14:47:03.000Z",
+     "time_local": "2026-10-04 22:47",
+     "text": "当西游记在纽约醒来：悟空穿过时代广场，八戒误入唐人街。AI 打开的平行取经路，这次西天不在西边。",
+     "metrics": {
+      "bookmark_count": 30,
+      "impression_count": 9247,
+      "like_count": 63,
+      "quote_count": 1,
+      "reply_count": 6,
+      "retweet_count": 11
+     },
+     "engagement": 124,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2106757870335434753/img/N2wIJp0ePqLwR7kj.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2102017729775694041",
+     "url": "https://x.com/jv3ov/status/2102017729775694041",
+     "author": "jv3ov",
+     "name": "🐕うに丼犬🐕",
+     "followers": 273,
+     "created_at": "2026-09-21T12:50:55.000Z",
+     "time_local": "2026-09-21 20:50",
+     "text": "【ZETAプロット紹介】🐒🐖🐢\n悟空、八戒、沙悟浄――\nもし三蔵一行がアイドルだったら！？\n三蔵マネのuserに引き連れられ、問題児3人が目指すのは遥か彼方の天竺！という名のアイドルの頂点！え？…ま、また問題起こしてる⁉︎😭\n\n西遊記×不良×アイドル\n#zetaプロット紹介\n#AIチャットzeta #zeta",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1073,
+      "like_count": 25,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 10
+     },
+     "engagement": 48,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/media/HSvd-3KaUAAp7N1.jpg",
+       "type": "photo"
+      },
+      {
+       "src": "https://pbs.twimg.com/media/HSvd-28aQAAd_5_.jpg",
+       "type": "photo"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2104580050532405497",
+     "url": "https://x.com/hx831126/status/2104580050532405497",
+     "author": "hx831126",
+     "name": "虎小象",
+     "followers": 9750,
+     "created_at": "2026-09-28T14:32:39.000Z",
+     "time_local": "2026-09-28 22:32",
+     "text": "转自艺术家 @chenzhe-nyc\n\n如果《西游记》没有一路向西，而是在纽约醒来：悟空穿过时代广场，八戒误入唐人街，沙僧守着东河落日，唐僧在钢筋森林里重新问了一遍：“我们究竟要去哪里？”\n\n一场由 AI 打开的平行取经路，妖怪换了模样，欲望依旧，人来人往。这一次，西天不在西边。\n\n————",
+     "metrics": {
+      "bookmark_count": 4,
+      "impression_count": 1365,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "engagement": 12,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2104579961210445824/img/9vxrv8wISSAnLJnF.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2104977425465848228",
+     "url": "https://x.com/rinrin3958/status/2104977425465848228",
+     "author": "rinrin3958",
+     "name": "鈴々",
+     "followers": 276,
+     "created_at": "2026-09-29T16:51:41.000Z",
+     "time_local": "2026-09-30 00:51",
+     "text": "またAIに悟空夢を書かせてみたけど、\n八戒は「朝飯」なんて絶対に言わないし、三蔵はイライラとしてる時に「悟空」って呼ばない(と個人的解釈で思ってる)し、やっぱこういうのにAIはダメだな(´-`　)",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 403,
+      "like_count": 2,
+      "quote_count": 1,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "engagement": 5,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/media/HTZhz8jbMAAbkBj.jpg",
+       "type": "photo"
+      }
+     ],
+     "refs": []
+    }
+   ],
+   "timeline": [
+    {
+     "stage": "源头",
+     "id": "2100067391497728046",
+     "url": "https://x.com/aynellex/status/2100067391497728046",
+     "author": "aynellex",
+     "followers": 8102,
+     "created_at": "2026-09-16T03:40:58.000Z",
+     "time_local": "2026-09-16 11:40",
+     "engagement": 162,
+     "text": "From Manhattan chaos to mythological power. ⚡\n\nCreated with Seedance 2.5\n\nAn ultra-photorealistic cinematic crossover — "
+    },
+    {
+     "stage": "KOL 跟进",
+     "id": "2102574252264239249",
+     "url": "https://x.com/SimonLe99917871/status/2102574252264239249",
+     "author": "SimonLe99917871",
+     "followers": 12676,
+     "created_at": "2026-09-23T01:42:20.000Z",
+     "time_local": "2026-09-23 09:42",
+     "engagement": 0,
+     "text": "今天看了一个AI做得电影，说猪八戒西天取经以后找孙悟空的事，真的很好看；可惜看到一半被X更新页面弄丢了。\n\n看了这部电影有了新的认识：\n第一：猪八戒原来武力值如此之高，基本打不过孙悟空的那帮人基本也打不过他；\n第二：看到X上有人贴出好电影，"
+    },
+    {
+     "stage": "引用二创 ← @PixelAigc",
+     "id": "2103700086786072999",
+     "url": "https://x.com/PixelAigc/status/2103700086786072999",
+     "author": "PixelAigc",
+     "followers": 8967,
+     "created_at": "2026-09-26T04:16:00.000Z",
+     "time_local": "2026-09-26 12:16",
+     "engagement": 4,
+     "text": "中秋节，西游记师兄弟三个跟随师父来到了纽约，护送好师父回酒店后，他们三个开始闲逛。\n本地H3生成的视频原型截屏人物，通过GPT设定角色，再通过H3终端生成视频 https://t.co/qgOQDsBF5E"
+    },
+    {
+     "stage": "二创/仿作",
+     "id": "2106758000203731351",
+     "url": "https://x.com/btc5887899/status/2106758000203731351",
+     "author": "btc5887899",
+     "followers": 1437,
+     "created_at": "2026-10-04T14:47:03.000Z",
+     "time_local": "2026-10-04 22:47",
+     "engagement": 124,
+     "text": "当西游记在纽约醒来：悟空穿过时代广场，八戒误入唐人街。AI 打开的平行取经路，这次西天不在西边。"
+    },
+    {
+     "stage": "引用二创 ← @btc5887899",
+     "id": "2106978871471981040",
+     "url": "https://x.com/metinee_buaphan/status/2106978871471981040",
+     "author": "metinee_buaphan",
+     "followers": 4089,
+     "created_at": "2026-10-05T05:24:43.000Z",
+     "time_local": "2026-10-05 13:24",
+     "engagement": 0,
+     "text": "👀"
+    }
+   ],
+   "remixes": [
+    {
+     "id": "2103633608259055911",
+     "url": "https://x.com/PixelAigc/status/2103633608259055911",
+     "author": "PixelAigc",
+     "name": "PixelAIGC",
+     "followers": 8967,
+     "created_at": "2026-09-25T23:51:50.000Z",
+     "time_local": "2026-09-26 07:51",
+     "text": "真厉害啊！\n师父购物，徒儿护驾。\nH3本地参考生成，9张图输入，15秒生成。\nLORA 8步，480P超分至1080P\n一键输出，无剪辑，有BUG。\n\nprompt 视频提示词如下：",
+     "metrics": {
+      "bookmark_count": 51,
+      "impression_count": 15336,
+      "like_count": 60,
+      "quote_count": 2,
+      "reply_count": 6,
+      "retweet_count": 7
+     },
+     "engagement": 137,
+     "media": [],
+     "refs": []
+    },
+    {
+     "id": "2106758000203731351",
+     "url": "https://x.com/btc5887899/status/2106758000203731351",
+     "author": "btc5887899",
+     "name": "花卷",
+     "followers": 1437,
+     "created_at": "2026-10-04T14:47:03.000Z",
+     "time_local": "2026-10-04 22:47",
+     "text": "当西游记在纽约醒来：悟空穿过时代广场，八戒误入唐人街。AI 打开的平行取经路，这次西天不在西边。",
+     "metrics": {
+      "bookmark_count": 30,
+      "impression_count": 9247,
+      "like_count": 63,
+      "quote_count": 1,
+      "reply_count": 6,
+      "retweet_count": 11
+     },
+     "engagement": 124,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2106757870335434753/img/N2wIJp0ePqLwR7kj.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2102017729775694041",
+     "url": "https://x.com/jv3ov/status/2102017729775694041",
+     "author": "jv3ov",
+     "name": "🐕うに丼犬🐕",
+     "followers": 273,
+     "created_at": "2026-09-21T12:50:55.000Z",
+     "time_local": "2026-09-21 20:50",
+     "text": "【ZETAプロット紹介】🐒🐖🐢\n悟空、八戒、沙悟浄――\nもし三蔵一行がアイドルだったら！？\n三蔵マネのuserに引き連れられ、問題児3人が目指すのは遥か彼方の天竺！という名のアイドルの頂点！え？…ま、また問題起こしてる⁉︎😭\n\n西遊記×不良×アイドル\n#zetaプロット紹介\n#AIチャットzeta #zeta",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1073,
+      "like_count": 25,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 10
+     },
+     "engagement": 48,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/media/HSvd-3KaUAAp7N1.jpg",
+       "type": "photo"
+      },
+      {
+       "src": "https://pbs.twimg.com/media/HSvd-28aQAAd_5_.jpg",
+       "type": "photo"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2104580050532405497",
+     "url": "https://x.com/hx831126/status/2104580050532405497",
+     "author": "hx831126",
+     "name": "虎小象",
+     "followers": 9750,
+     "created_at": "2026-09-28T14:32:39.000Z",
+     "time_local": "2026-09-28 22:32",
+     "text": "转自艺术家 @chenzhe-nyc\n\n如果《西游记》没有一路向西，而是在纽约醒来：悟空穿过时代广场，八戒误入唐人街，沙僧守着东河落日，唐僧在钢筋森林里重新问了一遍：“我们究竟要去哪里？”\n\n一场由 AI 打开的平行取经路，妖怪换了模样，欲望依旧，人来人往。这一次，西天不在西边。\n\n————",
+     "metrics": {
+      "bookmark_count": 4,
+      "impression_count": 1365,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "engagement": 12,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2104579961210445824/img/9vxrv8wISSAnLJnF.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2104977425465848228",
+     "url": "https://x.com/rinrin3958/status/2104977425465848228",
+     "author": "rinrin3958",
+     "name": "鈴々",
+     "followers": 276,
+     "created_at": "2026-09-29T16:51:41.000Z",
+     "time_local": "2026-09-30 00:51",
+     "text": "またAIに悟空夢を書かせてみたけど、\n八戒は「朝飯」なんて絶対に言わないし、三蔵はイライラとしてる時に「悟空」って呼ばない(と個人的解釈で思ってる)し、やっぱこういうのにAIはダメだな(´-`　)",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 403,
+      "like_count": 2,
+      "quote_count": 1,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "engagement": 5,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/media/HTZhz8jbMAAbkBj.jpg",
+       "type": "photo"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2103700086786072999",
+     "url": "https://x.com/PixelAigc/status/2103700086786072999",
+     "author": "PixelAigc",
+     "name": "PixelAIGC",
+     "followers": 8967,
+     "created_at": "2026-09-26T04:16:00.000Z",
+     "time_local": "2026-09-26 12:16",
+     "text": "中秋节，西游记师兄弟三个跟随师父来到了纽约，护送好师父回酒店后，他们三个开始闲逛。\n本地H3生成的视频原型截屏人物，通过GPT设定角色，再通过H3终端生成视频 https://t.co/qgOQDsBF5E",
+     "metrics": {
+      "bookmark_count": 1,
+      "impression_count": 886,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "engagement": 4,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2103685498124570624/img/crohQiYAn8GpeYsk.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": [
+      {
+       "id": "2103633608259055911",
+       "type": "quoted"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "anime",
+   "title": "AI 动画 / 连载剧集",
+   "summary": "以「第 1 集」形式连载的 AI 动画与同人剧集，如《MAKOTO》第 1 話、哈利波特同人连载等。",
+   "breakdown": {
+    "hook": "「史上最强 AI 动画」式宣言 + 连载悬念",
+    "format": "按集发布，双语标题",
+    "style": "日系赛璐璐 / 同人剧照风",
+    "why": "追更机制带来回访，同人 IP 吸引原作粉"
+   },
+   "heat": 24.4,
+   "engagement_total": 129,
+   "post_count": 28,
+   "quote_count": 0,
+   "impressions": 6496,
+   "first": "2026-09-26 20:21",
+   "peak": "2026-09-29 18:51",
+   "origin": {
+    "id": "2103822185513234622",
+    "url": "https://x.com/higgsap17/status/2103822185513234622",
+    "author": "higgsap17",
+    "followers": 3,
+    "created_at": "2026-09-26T12:21:10.000Z",
+    "time_local": "2026-09-26 20:21",
+    "engagement": 0,
+    "text": "📖 AIアニメは映像が綺麗なだけでも楽しい。\nでも今回は、そこから一歩進んで**「続きが気になる映像」**を目指します。\n第1話では、\n魔法少女が少年と出会う\n→ 不思議な出来事が起きる\n→ 少女の力が目覚める\n→ 2人が事件に巻き込まれる",
+    "media": [
+     {
+      "src": "https://pbs.twimg.com/media/HTJHII1akAAKJea.jpg",
+      "type": "photo"
+     }
+    ],
+    "metrics": {
+     "bookmark_count": 0,
+     "impression_count": 68,
+     "like_count": 0,
+     "quote_count": 0,
+     "reply_count": 0,
+     "retweet_count": 0
+    }
+   },
+   "posts": [
+    {
+     "id": "2104886899412545762",
+     "url": "https://x.com/betty2408121/status/2104886899412545762",
+     "author": "betty2408121",
+     "name": "ベティの物語",
+     "followers": 781,
+     "created_at": "2026-09-29T10:51:58.000Z",
+     "time_local": "2026-09-29 18:51",
+     "text": "もしも、桃太郎が猫だったら…？🍑🐱\n\n愛猫が桃から生まれるAIアニメを作ってみました！\n\n『ももにゃん太郎』第1話、開幕！\n\n猫の鬼退治、はじまるにゃ！⚔️\n\n#猫 #AIアニメ #桃太郎",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2463,
+      "like_count": 35,
+      "quote_count": 1,
+      "reply_count": 3,
+      "retweet_count": 3
+     },
+     "engagement": 47,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2104886826905559041/img/wo8wmKcek2yHEA0_.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2108400681346281527",
+     "url": "https://x.com/GreyforgeLabs/status/2108400681346281527",
+     "author": "GreyforgeLabs",
+     "name": "Greyforge Labs",
+     "followers": 298,
+     "created_at": "2026-10-09T03:34:29.000Z",
+     "time_local": "2026-10-09 11:34",
+     "text": "MAKOTO EPISODE 1 / 『MAKOTO』第1話\n\nBest AI anime on the internet. Not even close.\n\nAIアニメの頂点、獲りにいく。\n\nwe're claiming the entire category.",
+     "metrics": {
+      "bookmark_count": 7,
+      "impression_count": 433,
+      "like_count": 11,
+      "quote_count": 2,
+      "reply_count": 4,
+      "retweet_count": 4
+     },
+     "engagement": 36,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2108399955991834624/img/TGYmwplOGXQtmpCY.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2107796159825948792",
+     "url": "https://x.com/Amatellous/status/2107796159825948792",
+     "author": "Amatellous",
+     "name": "あまてらす",
+     "followers": 68,
+     "created_at": "2026-10-07T11:32:20.000Z",
+     "time_local": "2026-10-07 19:32",
+     "text": "転生課のウツロさん　第1話\n「いつもの場所で、また」\n\n戦下の祖国。\n太平洋上で散華した青年は、待ち人のもとへ還る。\n\n――子猫になって。\n\n#転生課のウツロさん #AIショートアニメ",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 587,
+      "like_count": 5,
+      "quote_count": 2,
+      "reply_count": 4,
+      "retweet_count": 1
+     },
+     "engagement": 17,
+     "media": [],
+     "refs": []
+    },
+    {
+     "id": "2106696406748835945",
+     "url": "https://x.com/gatuwo_jp/status/2106696406748835945",
+     "author": "gatuwo_jp",
+     "name": "ガツヲ",
+     "followers": 2637,
+     "created_at": "2026-10-04T10:42:18.000Z",
+     "time_local": "2026-10-04 18:42",
+     "text": "【第1話】「これってパワハラ？」｜『ティラノ部長』 https://t.co/1B1WRfeQjA @YouTubeより \n\n鈴木おさむさんと、ふるふるさんがタッグを組んだAIアニメです。\n率直な感想として品質も高いし面白いし分かりやすい。\nプロの仕事だと思いました。",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1385,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "engagement": 9,
+     "media": [],
+     "refs": []
+    },
+    {
+     "id": "2108319138808807679",
+     "url": "https://x.com/c12346hn/status/2108319138808807679",
+     "author": "c12346hn",
+     "name": "emotional strikes anime",
+     "followers": 2870,
+     "created_at": "2026-10-08T22:10:28.000Z",
+     "time_local": "2026-10-09 06:10",
+     "text": "new episode is live AI Anime Series | Crimson Vale High —  A new classmate | The Kalthrax Ch... https://t.co/BFc8rxToZC via @YouTube",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 193,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 2
+     },
+     "engagement": 7,
+     "media": [],
+     "refs": []
+    },
+    {
+     "id": "2104601014343176475",
+     "url": "https://x.com/ten999999999999/status/2104601014343176475",
+     "author": "ten999999999999",
+     "name": "てん",
+     "followers": 3398,
+     "created_at": "2026-09-28T15:55:58.000Z",
+     "time_local": "2026-09-28 23:55",
+     "text": "借金、1億ゴルダ。\n師匠が遺したのは、未完の設計図と「打つな、渡せ」の一言だけ。\n屑鉄から1億を打ち返す、鍛冶師の物語。\nAIアニメ『鍛冶と相場の冒険録』第1話PV\n#AIアニメ #オリジナルアニメ #鍛冶と相場の冒険録",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 171,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "engagement": 4,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2104600772218703872/img/dI8Ny1wQeOotu26m.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    }
+   ],
+   "timeline": [
+    {
+     "stage": "源头",
+     "id": "2103822185513234622",
+     "url": "https://x.com/higgsap17/status/2103822185513234622",
+     "author": "higgsap17",
+     "followers": 3,
+     "created_at": "2026-09-26T12:21:10.000Z",
+     "time_local": "2026-09-26 20:21",
+     "engagement": 0,
+     "text": "📖 AIアニメは映像が綺麗なだけでも楽しい。\nでも今回は、そこから一歩進んで**「続きが気になる映像」**を目指します。\n第1話では、\n魔法少女が少年と出会う\n→ 不思議な出来事が起きる\n→ 少女の力が目覚める\n→ 2人が事件に巻き込まれる"
+    },
+    {
+     "stage": "二创/仿作",
+     "id": "2104601014343176475",
+     "url": "https://x.com/ten999999999999/status/2104601014343176475",
+     "author": "ten999999999999",
+     "followers": 3398,
+     "created_at": "2026-09-28T15:55:58.000Z",
+     "time_local": "2026-09-28 23:55",
+     "engagement": 4,
+     "text": "借金、1億ゴルダ。\n師匠が遺したのは、未完の設計図と「打つな、渡せ」の一言だけ。\n屑鉄から1億を打ち返す、鍛冶師の物語。\nAIアニメ『鍛冶と相場の冒険録』第1話PV\n#AIアニメ #オリジナルアニメ #鍛冶と相場の冒険録"
+    },
+    {
+     "stage": "峰值",
+     "id": "2104886899412545762",
+     "url": "https://x.com/betty2408121/status/2104886899412545762",
+     "author": "betty2408121",
+     "followers": 781,
+     "created_at": "2026-09-29T10:51:58.000Z",
+     "time_local": "2026-09-29 18:51",
+     "engagement": 47,
+     "text": "もしも、桃太郎が猫だったら…？🍑🐱\n\n愛猫が桃から生まれるAIアニメを作ってみました！\n\n『ももにゃん太郎』第1話、開幕！\n\n猫の鬼退治、はじまるにゃ！⚔️\n\n#猫 #AIアニメ #桃太郎"
+    },
+    {
+     "stage": "二创/仿作",
+     "id": "2106696406748835945",
+     "url": "https://x.com/gatuwo_jp/status/2106696406748835945",
+     "author": "gatuwo_jp",
+     "followers": 2637,
+     "created_at": "2026-10-04T10:42:18.000Z",
+     "time_local": "2026-10-04 18:42",
+     "engagement": 9,
+     "text": "【第1話】「これってパワハラ？」｜『ティラノ部長』 https://t.co/1B1WRfeQjA @YouTubeより \n\n鈴木おさむさんと、ふるふるさんがタッグを組んだAIアニメです。\n率直な感想として品質も高いし面白いし分かりやすい。"
+    },
+    {
+     "stage": "二创/仿作",
+     "id": "2108319138808807679",
+     "url": "https://x.com/c12346hn/status/2108319138808807679",
+     "author": "c12346hn",
+     "followers": 2870,
+     "created_at": "2026-10-08T22:10:28.000Z",
+     "time_local": "2026-10-09 06:10",
+     "engagement": 7,
+     "text": "new episode is live AI Anime Series | Crimson Vale High —  A new classmate | The Kalthrax Ch... https://t.co/BFc8rxToZC "
+    },
+    {
+     "stage": "二创/仿作",
+     "id": "2108400681346281527",
+     "url": "https://x.com/GreyforgeLabs/status/2108400681346281527",
+     "author": "GreyforgeLabs",
+     "followers": 298,
+     "created_at": "2026-10-09T03:34:29.000Z",
+     "time_local": "2026-10-09 11:34",
+     "engagement": 36,
+     "text": "MAKOTO EPISODE 1 / 『MAKOTO』第1話\n\nBest AI anime on the internet. Not even close.\n\nAIアニメの頂点、獲りにいく。\n\nwe're claiming the enti"
+    }
+   ],
+   "remixes": [
+    {
+     "id": "2104886899412545762",
+     "url": "https://x.com/betty2408121/status/2104886899412545762",
+     "author": "betty2408121",
+     "name": "ベティの物語",
+     "followers": 781,
+     "created_at": "2026-09-29T10:51:58.000Z",
+     "time_local": "2026-09-29 18:51",
+     "text": "もしも、桃太郎が猫だったら…？🍑🐱\n\n愛猫が桃から生まれるAIアニメを作ってみました！\n\n『ももにゃん太郎』第1話、開幕！\n\n猫の鬼退治、はじまるにゃ！⚔️\n\n#猫 #AIアニメ #桃太郎",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2463,
+      "like_count": 35,
+      "quote_count": 1,
+      "reply_count": 3,
+      "retweet_count": 3
+     },
+     "engagement": 47,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2104886826905559041/img/wo8wmKcek2yHEA0_.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2108400681346281527",
+     "url": "https://x.com/GreyforgeLabs/status/2108400681346281527",
+     "author": "GreyforgeLabs",
+     "name": "Greyforge Labs",
+     "followers": 298,
+     "created_at": "2026-10-09T03:34:29.000Z",
+     "time_local": "2026-10-09 11:34",
+     "text": "MAKOTO EPISODE 1 / 『MAKOTO』第1話\n\nBest AI anime on the internet. Not even close.\n\nAIアニメの頂点、獲りにいく。\n\nwe're claiming the entire category.",
+     "metrics": {
+      "bookmark_count": 7,
+      "impression_count": 433,
+      "like_count": 11,
+      "quote_count": 2,
+      "reply_count": 4,
+      "retweet_count": 4
+     },
+     "engagement": 36,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2108399955991834624/img/TGYmwplOGXQtmpCY.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    },
+    {
+     "id": "2107796159825948792",
+     "url": "https://x.com/Amatellous/status/2107796159825948792",
+     "author": "Amatellous",
+     "name": "あまてらす",
+     "followers": 68,
+     "created_at": "2026-10-07T11:32:20.000Z",
+     "time_local": "2026-10-07 19:32",
+     "text": "転生課のウツロさん　第1話\n「いつもの場所で、また」\n\n戦下の祖国。\n太平洋上で散華した青年は、待ち人のもとへ還る。\n\n――子猫になって。\n\n#転生課のウツロさん #AIショートアニメ",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 587,
+      "like_count": 5,
+      "quote_count": 2,
+      "reply_count": 4,
+      "retweet_count": 1
+     },
+     "engagement": 17,
+     "media": [],
+     "refs": []
+    },
+    {
+     "id": "2106696406748835945",
+     "url": "https://x.com/gatuwo_jp/status/2106696406748835945",
+     "author": "gatuwo_jp",
+     "name": "ガツヲ",
+     "followers": 2637,
+     "created_at": "2026-10-04T10:42:18.000Z",
+     "time_local": "2026-10-04 18:42",
+     "text": "【第1話】「これってパワハラ？」｜『ティラノ部長』 https://t.co/1B1WRfeQjA @YouTubeより \n\n鈴木おさむさんと、ふるふるさんがタッグを組んだAIアニメです。\n率直な感想として品質も高いし面白いし分かりやすい。\nプロの仕事だと思いました。",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1385,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "engagement": 9,
+     "media": [],
+     "refs": []
+    },
+    {
+     "id": "2108319138808807679",
+     "url": "https://x.com/c12346hn/status/2108319138808807679",
+     "author": "c12346hn",
+     "name": "emotional strikes anime",
+     "followers": 2870,
+     "created_at": "2026-10-08T22:10:28.000Z",
+     "time_local": "2026-10-09 06:10",
+     "text": "new episode is live AI Anime Series | Crimson Vale High —  A new classmate | The Kalthrax Ch... https://t.co/BFc8rxToZC via @YouTube",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 193,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 2
+     },
+     "engagement": 7,
+     "media": [],
+     "refs": []
+    },
+    {
+     "id": "2104601014343176475",
+     "url": "https://x.com/ten999999999999/status/2104601014343176475",
+     "author": "ten999999999999",
+     "name": "てん",
+     "followers": 3398,
+     "created_at": "2026-09-28T15:55:58.000Z",
+     "time_local": "2026-09-28 23:55",
+     "text": "借金、1億ゴルダ。\n師匠が遺したのは、未完の設計図と「打つな、渡せ」の一言だけ。\n屑鉄から1億を打ち返す、鍛冶師の物語。\nAIアニメ『鍛冶と相場の冒険録』第1話PV\n#AIアニメ #オリジナルアニメ #鍛冶と相場の冒険録",
+     "metrics": {
+      "bookmark_count": 0,
+      "impression_count": 171,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "engagement": 4,
+     "media": [
+      {
+       "src": "https://pbs.twimg.com/amplify_video_thumb/2104600772218703872/img/dI8Ny1wQeOotu26m.jpg",
+       "type": "video"
+      }
+     ],
+     "refs": []
+    }
+   ]
+  }
+ ]
+}

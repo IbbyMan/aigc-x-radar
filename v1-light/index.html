@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AIGC.Radar — X 上的 AI 短片与图像趋势</title>
+<link rel="stylesheet" href="assets/style.css"></head>
+<body>
+<header class="nav"><div class="logo">AIGC<span>.Radar</span></div>
+<nav><a href="#clusters">热点内容簇</a><a href="#routes">发酵路线</a><a href="#tech">技术分析</a><a href="#daily">每日更新</a></nav>
+<div class="pill lime" id="datePill"></div></header>
+<section class="hero"><div class="hero-in">
+<p class="eyebrow">X · AIGC VIDEO & IMAGE TRENDS</p>
+<h1>今天的 AI 短片<br><em>正在怎样发酵</em></h1>
+<p class="lead">从 X 公开帖子中追踪 Seedance、MiniMax H3、Vidu、Kling、Qwen-Image 等模型的爆款内容、传播路线与技术拆解。</p>
+<div class="stats" id="stats"></div></div></section>
+<main>
+<section id="clusters"><div class="sec-head"><h2>热点内容簇</h2><span class="pill">Heat = 点赞 + 2×转发 + 3×引用 + 回复 + 收藏</span></div><div class="grid" id="clusterGrid"></div></section>
+<section id="routes"><div class="sec-head"><h2>发酵路线</h2><span class="pill">首发 → 扩散 → 峰值 · 时间 Asia/Shanghai</span></div><div id="routeList"></div></section>
+<section id="tech"><div class="sec-head"><h2>技术分析帖子</h2><span class="pill">提示词 / 工作流 / LoRA / ComfyUI</span></div><div class="tech" id="techList"></div></section>
+<section id="daily" class="panel daily"><h2>每日更新</h2><div id="dailyInfo"></div>
+<pre>X_BEARER_TOKEN=xxxx python3 update.py   # 重新抓取并生成 data.json / data.js
+python3 update.py --from-raw raw.json   # 离线重建</pre></section>
+</main>
+<footer>数据来自 X 公开帖子（只读检索），所有帖子均链接原文 · Demo 仅供研究</footer>
+<script src="data.js"></script><script src="assets/app.js"></script>
+</body></html>

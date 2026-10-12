@@ -1,0 +1,15 @@
+const D=window.RADAR_DATA;const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const k=n=>n>=1e6?(n/1e6).toFixed(1)+'M':n>=1e3?(n/1e3).toFixed(1)+'K':n;
+$('#datePill').textContent='数据日期 '+D.data_date;
+const nPosts=D.clusters.reduce((a,c)=>a+c.post_count,0);
+$('#stats').innerHTML=[[D.clusters.length,'热点内容簇'],[nPosts,'归类帖子'],[D.total_posts,'检索帖子(去重)'],[D.tech_posts.length,'技术拆解帖']].map(([v,l])=>`<div class="stat"><b>${v}</b><span>${l}</span></div>`).join('');
+const post=p=>`<a class="post" href="${p.url}" target="_blank"><div class="h"><span><b>@${esc(p.author)}</b> · ${p.time_local}</span><span>♥ ${k(p.metrics.like_count)} · ⟲ ${k(p.metrics.retweet_count)} · 👁 ${k(p.metrics.impression_count||0)}</span></div><div class="t">${esc(p.text)}</div></a>`;
+$('#clusterGrid').innerHTML=D.clusters.map((c,i)=>{const th=c.posts.flatMap(p=>p.media.map(m=>({...m,url:p.url}))).slice(0,3);
+return `<article class="card"><div class="meta"><span class="rank">#${i+1}</span><span class="pill">${c.post_count} 帖</span><span class="pill">互动 ${k(c.engagement_total)}</span><span class="pill">曝光 ${k(c.impressions)}</span></div>
+<h3>${esc(c.title)}</h3><p>${esc(c.summary)}</p><div class="heat"><b>${c.heat}</b><div class="bar"><i style="width:${c.heat}%"></i></div><span class="pill red">HEAT</span></div>
+${th.length?`<div class="thumbs">${th.map(m=>`<a href="${m.url}" target="_blank" class="${m.type!=='photo'?'v':''}"><img loading="lazy" src="${m.src}" alt=""></a>`).join('')}</div>`:''}
+<div class="plist">${c.posts.slice(0,3).map(post).join('')}</div></article>`}).join('');
+$('#routeList').innerHTML=D.clusters.map(c=>`<div class="route"><h3>${esc(c.title)}<span class="pill">首发 ${c.first}</span><span class="pill red">峰值 ${c.peak}</span></h3><div class="tl">${c.timeline.map(s=>`<div class="step ${s.stage==='峰值'?'peak':s.stage==='首发'?'first':''}"><div class="s">${s.stage}${s.stage==='首发'&&s.id===c.posts[0].id?' · 即峰值':''}</div><div class="d">${s.time_local} · 互动 ${k(s.engagement)} · 粉丝 ${k(s.followers)}</div><a href="${s.url}" target="_blank"><b>@${esc(s.author)}</b> ${esc(s.text)}</a></div>`).join('')}</div></div>`).join('');
+$('#techList').innerHTML=D.tech_posts.map(t=>`<div class="tcard"><div class="zh">${esc(t.summary_zh||t.text.slice(0,80))}</div><div class="orig">${esc(t.text)}</div><div class="f"><span><b>@${esc(t.author)}</b> · ${t.time_local}</span><a class="pill lime" href="${t.url}" target="_blank">原帖 ↗ ♥${k(t.metrics.like_count)}</a></div></div>`).join('');
+$('#dailyInfo').innerHTML=`<div class="kv"><span class="pill lime">数据日期 ${D.data_date} (${D.timezone})</span><span class="pill">生成于 ${D.generated_at}</span><span class="pill">时间窗 ≈ 近 ${D.window_days} 天</span><span class="pill">${D.queries.length} 组检索词</span></div><p style="color:var(--sub);line-height:1.7">页面读取 <code>data.js</code>（与 <code>data.json</code> 同内容，便于 file:// 直接打开）。运行 <code>update.py</code> 即可调用 X API v2 重新抓取、聚类、计算热度并重新生成数据；可配合 cron 每日 09:00 (Asia/Shanghai) 执行。</p>`;

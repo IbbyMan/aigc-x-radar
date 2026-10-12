@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AIGC-X追热 Made in Heaven</title>
+<link rel="stylesheet" href="assets/style.css"></head>
+<body>
+<div class="sfx-layer" aria-hidden="true"><span class="sfx s1">ゴ</span><span class="sfx s2">ゴ</span><span class="sfx s3">ゴ</span><span class="sfx s4">ド</span><span class="sfx s5">ド</span><span class="sfx s6">ゴ</span></div>
+<header class="nav"><div class="logo">AIGC-X追热 <span>MADE IN HEAVEN</span></div>
+<nav><a href="#clusters">热点内容簇</a><a href="#routes">发酵路线</a><a href="#remix">二创/仿作</a><a href="#why">爆款拆解</a><a href="#daily">每日更新</a></nav>
+<div class="tag gold" id="datePill"></div></header>
+<section class="hero"><div class="hero-in">
+<div class="speed" aria-hidden="true"></div><div class="halftone" aria-hidden="true"></div>
+<div class="menace" aria-hidden="true"><b>ゴ</b><b>ゴ</b><b>ゴ</b><b>ゴ</b></div>
+<p class="eyebrow">PART 26 ── X · AIGC SHORT-FILM & MEME TRENDS</p>
+<h1><span class="l1">今天的 AI 短片</span><span class="l2">正在怎样发酵</span><span class="l3">TO BE CONTINUED ⟶</span></h1>
+<p class="lead">只追内容，不追模型：从 X 公开帖子中追踪正在发酵的 AI 短片、梗与连载——火箭猫、西游记在纽约、大肥鱼 APT……看它们从哪冒出来、被谁二创、在哪一刻冲上峰值。</p>
+<div class="stats" id="stats"></div></div></section>
+<main>
+<section id="clusters"><div class="sec-head"><h2><i>01</i>热点内容簇</h2><span class="tag">HEAT = 点赞 + 2×转发 + 3×引用 + 回复 + 收藏</span></div><div class="grid" id="clusterGrid"></div></section>
+<section id="routes"><div class="sec-head"><h2><i>02</i>发酵路线</h2><span class="tag">首发 → 扩散 → 峰值 · Asia/Shanghai</span></div><div id="routeList"></div></section>
+<section id="remix"><div class="sec-head"><h2><i>03</i>二创 / 仿作</h2><span class="tag">每个梗被谁接住、怎么改</span></div><div id="remixList"></div></section>
+<section id="why"><div class="sec-head"><h2><i>04</i>爆款拆解</h2><span class="tag">HOOK · FORMAT · STYLE · 为什么会传</span></div><div class="tech" id="whyList"></div></section>
+<section id="daily" class="panel daily"><h2><i>05</i>每日更新</h2><div id="dailyInfo"></div>
+<pre>X_BEARER_TOKEN=xxxx python3 update.py   # 重新抓取并生成 data.json / data.js
+python3 update.py --from-raw raw.json   # 离线重建</pre></section>
+</main>
+<footer>数据来自 X 公开帖子（只读检索），所有帖子均链接原文 · Demo 仅供研究 · <b>ゴゴゴゴ</b></footer>
+<script src="data.js"></script><script src="assets/app.js"></script>
+</body></html>
