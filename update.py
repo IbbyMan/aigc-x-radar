@@ -10,6 +10,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 TZ = ZoneInfo("Asia/Shanghai")
 API = os.environ.get("X_API_ENDPOINT", "https://api.x.com/2/tweets/search/all")  # 无全量权限可改 /2/tweets/search/recent
 DAYS = int(os.environ.get("RADAR_DAYS", "21"))
+QUOTE_N = 3
 FIELDS = {
     "max_results": "25", "sort_order": "relevancy",
     "tweet.fields": "possibly_sensitive,created_at,public_metrics,author_id,conversation_id,referenced_tweets,attachments,lang",
@@ -18,6 +19,10 @@ FIELDS = {
     "media.fields": "type,url,preview_image_url",
 }
 QUERIES = [
+    '"pencil test" (Ariel OR "Little Mermaid" OR AI) -is:retweet',
+    '大肥鱼 -is:retweet',
+    '("sword cat" OR "drool cat" OR "@_numanuk") has:media -is:retweet',
+    '(背篓 OR 原生家庭) (AI OR 短片 OR 视频) -is:retweet',
     '"rocket cat" has:media -is:retweet',
     '(西游记 纽约) OR ("Journey to the West" "New York") OR (Wukong "New York")',
     '(大肥鱼 OR 火箭猫 OR 悟空 AI OR 八戒 AI OR "师父") (AI OR 视频) -is:retweet',
@@ -36,15 +41,18 @@ QUERIES = [
 QUOTE_ORIGINS = 3  # 每次自动对热度最高的 N 个簇首发帖调用 quote_tweets 接口拉取真实引用链
 # 簇 = 一部作品 / 一种梗格式。字段: id, 标题, 摘要, 匹配正则, 爆款拆解(hook/format/style/why)
 CLUSTERS = [
-    ("rocketcat", "Rocket Cat 火箭猫", "一只头戴钢盔、扛火箭筒的小猫短视频（@_numanuk 首发）。几小时内衍生出无数配文二创、表情贴纸、「Sword Cat」续作与 meme 币跟风。",
-     r"rocket ?cat|rocketcat|bazucat|bomba ?cat|火箭猫|sword ?cat",
+    ("rocketcat", "Rocket Cat 火箭猫 & @_numanuk 动物梗宇宙", "一只头戴钢盔、扛火箭筒的小猫短视频（@_numanuk 首发）。几小时内衍生出无数配文二创、表情贴纸；同作者的「Catana / Sword Cat」持刀猫也被重新翻红，形成「AI 动物梗宇宙」。",
+     r"rocket ?cat|rocketcat|bazucat|bomba ?cat|火箭猫|sword ?cat|catana|drool cat|ai animal",
      {"hook": "萌物 × 重武器的反差：最可爱的脸 + 最离谱的火力", "format": "几秒无台词循环短片，零语言门槛，可配任意文案", "style": "写实质感萌宠 + 战场烟雾特效", "why": "极易套梗（「会议结束」「清场」），被二创账号批量配文，再被 meme 币社区二次放大"}),
+    ("ariel", "Ariel 铅笔稿真假反转", "一段「小美人鱼 Ariel 铅笔动画稿 → 彩色成片」对比视频被当作「AI 把铅笔稿上色」疯传；10-12 @knightama 揭晓反转：铅笔稿才是 AI 生成的，彩色版是原片。评论区「你被骗了」大战。",
+     r"pencil test",
+     {"hook": "「AI 能把铅笔稿变成迪士尼成片？」→ 反转：铅笔稿才是 AI", "format": "左右/前后对比视频 + 揭晓帖", "style": "经典 2D 手绘动画质感", "why": "真假辨别激发站队；揭晓帖制造第二波传播，引用与回复里大量「我早看出来了」"}),
     ("xiyou", "西游记 AI 新编：西游记在纽约", "把《西游记》角色丢进现代都市与跨界设定：悟空在曼哈顿大战灭霸、「师父购物，徒儿护驾」、悟空穿过时代广场、八戒误入唐人街。",
-     r"西游|悟空|八戒|蜘蛛精|唐僧|师父购物|wukong|journey to the west|三蔵",
+     r"西游|悟空|八戒|蜘蛛精|女仆|猫耳|唐僧|师父购物|wukong|journey to the west|三蔵",
      {"hook": "国民 IP × 错位时空：取经团出现在曼哈顿 / 时代广场 / 唐人街", "format": "电影感短片 + 一句话设定文案（「当西游记在纽约醒来」）", "style": "写实摄影风、摩天楼与霓虹都市夜景、跨界大战", "why": "IP 自带认知、东西方反差设定天然好奇；中文圈转推矩阵集中转发，日语圈也有偶像化二创"}),
-    ("fatfish", "DeepSeek「大肥鱼」合唱 APT", "中文圈爆梗：DeepSeek 拟人形象「大肥鱼」与梁文锋合唱 APT 的 AI 视频，随后作者放出完整制作拆解。",
-     r"大肥鱼|梁圣",
-     {"hook": "科技圈名人 × 洗脑神曲 APT", "format": "MV 式对唱短片", "style": "拟人吉祥物 + 真人换脸", "why": "圈内梗 + 名人自嘲，教程续集延长热度"}),
+    ("fatfish", "「大肥鱼」宇宙：APT 合唱 → 打工人日常连载", "中文圈爆梗：DeepSeek 拟人形象「大肥鱼」先以与梁文锋合唱 APT 的 AI 视频出圈；10-12 起 @Remake___ 连更「大肥鱼的一天」（摆摊 14 小时、10 平米出租屋、抱着电饭煲睡着），延伸出「AI 界原生家庭」等拟人梗。",
+     r"大肥鱼|梁圣|原生家庭最|ai界原生家庭",
+     {"hook": "可爱拟人吉祥物 × 打工人心酸日常", "format": "按时间点连更的图文/短视频（「晚上十点，大肥鱼…」）", "style": "萌系拟人 + 生活流", "why": "社畜共鸣 + 连载追更；圈内 AI 产品互黑梗（被 Claude/GPT 抢饭）提供无限素材"}),
     ("lego", "LEGO AI Music Video 政治讽刺 MV 系列", "@drew_ponder 持续发布的乐高风格 AI 音乐视频，以时政人物为主角的讽刺 MV，形成固定栏目。",
      r"lego.{0,30}music video|lego ai",
      {"hook": "乐高小人演绎时政热点", "format": "系列化 MV，固定标题后缀", "style": "乐高定格动画质感", "why": "时事热点 + 统一品牌化包装，便于粉丝追更与站队转发"}),
@@ -59,9 +67,11 @@ CLUSTERS = [
      {"hook": "「一个人 + 十天 = 一部短片」的创作者叙事", "format": "1–30 分钟完整剧情片", "style": "电影感、科幻/情感题材", "why": "完成度与工作量本身就是卖点；创作者圈互相引用"}),
 ]
 # 严格 NSFW 过滤：关键词(中英) + X API possibly_sensitive + 屏蔽账号(简介/名称含成人向词)
-NSFW_RE = re.compile(r"nsfw|sexy|sexi|hot girl|bikini|lingerie|onlyfans|only fans|fansly|18\+|r18|porn|xxx|nude|naked|boob|busty|thicc|cleavage|pantyhose|stocking|lewd|hentai|ecchi|bdsm|spank|slave|fetish|erotic|seductive|horny|cosplay girl|waifu|ai girl|"
-    r"福利|擦边|性感|美女|涩|色色|色情|黄片|裸|内衣|丝袜|巨乳|诱惑|情色|成人|大尺度|洗澡|没有穿衣服|不穿|蜘蛛精|エロ|えっち|セクシー|水着|下着", re.I)
+NSFW_RE = re.compile(r"nsfw|sexy|sexi|hot girl|bikini|lingerie|onlyfans|only fans|fansly|18\+|r18|porn|xxx|nude|naked|boob|busty|thicc|cleavage|pantyhose|stocking|lewd|hentai|ecchi|bdsm|spank|slave|fetish|erotic|seductive|horny|cosplay girl|waifu|ai girl|maid|"
+    r"福利|擦边|性感|美女|涩|色色|色情|黄片|裸|内衣|丝袜|巨乳|诱惑|情色|成人|大尺度|洗澡|没有穿衣服|不穿|蜘蛛精|女仆|猫耳|エロ|えっち|セクシー|水着|下着", re.I)
 BLOCK_AUTHORS = {"easonnli", "easonnll", "smax_bdsm", "aiexoticdotcom", "renzo_beat", "hot_lalisa27", "capitalatlasq", "umka444444", "linerscott87111", "craftlightmagic"}
+# 人工复核后隐藏缩略图的帖子（帖子保留，仅不显示媒体；宁可错杀）
+HIDE_MEDIA = {"2109642398179758311", "2109687535186424189"}
 def is_nsfw(p, u):
     if p.get("possibly_sensitive"): return True
     if u.get("username", "").lower() in BLOCK_AUTHORS: return True
@@ -69,7 +79,7 @@ def is_nsfw(p, u):
 
 # 可选: 簇成员还须命中的正则（排除无关提及）
 MUST = {"xiyou": r"\bAI\b|AI|seedance|H3|prompt|作品|生成", "anime": r"AI|ＡＩ", "aichar": r"AI|character|角色"}
-EXCLUDE = re.compile(r"coin|onboard|business|systems?\b|\$\$|token|launch(ed)? on|CA:|inference|zevio", re.I)
+EXCLUDE = re.compile(r"coin|onboard|business|systems?\b|\$\$|token|launch(ed)? on|CA:|inference|zevio|memecoin|meme coin|onchain|\bbid\b|\bmeta\b|retard|dumbass|crypto|#ad\b|paidpartnership", re.I)
 SPAM_RE = re.compile(r"tokens/sec|coding model|pump|\$[A-Za-z]{3,}|0x[0-9a-f]{20}|airdrop|bdsm|slave|nsfw|pantyhose|色情|porn|open source|收益|赚|\$\d|per month|/month|monetiz|portfolio", re.I)
 
 def fetch():
@@ -118,7 +128,7 @@ def build(raw, summaries=None):
         if not u.get("username") or p["text"].startswith("RT @") or SPAM_RE.search(p["text"]) or u["username"] == "grok" or is_nsfw(p, u): continue
         pm = dict(p.get("public_metrics", {})); pm.setdefault("retweet_count", pm.get("repost_count", 0))
         thumbs = []
-        for k in p.get("attachments", {}).get("media_keys", []):
+        for k in ([] if p["id"] in HIDE_MEDIA else p.get("attachments", {}).get("media_keys", [])):
             m = M.get(k, {}); t = m.get("url") or m.get("preview_image_url")
             if t: thumbs.append({"src": t, "type": m.get("type")})
         out.append({"id": p["id"], "url": f"https://x.com/{u['username']}/status/{p['id']}",
@@ -139,7 +149,7 @@ def build(raw, summaries=None):
         used |= {p["id"] for p in mem}
         mem.sort(key=lambda p: p["created_at"])
         top = sorted(mem, key=lambda p: -p["engagement"])
-        origin = top[0] if top[0]["engagement"] > 20 * max(1, mem[0]["engagement"]) and top[0]["created_at"] <= mem[min(2,len(mem)-1)]["created_at"] else mem[0]
+        origin = next(p for p in mem if p["engagement"] >= 0.05 * top[0]["engagement"])
         total = sum(p["engagement"] for p in mem)
         heat = round(100 * (1 - 1/(1 + total/400)), 1)
         peak = top[0]
